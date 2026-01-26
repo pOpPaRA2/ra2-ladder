@@ -13,7 +13,10 @@ function hideError(){
   errorBox.style.display = "none";
   errorBox.textContent = "";
 }
-function bust(url){ return `${url}?v=${Date.now()}`; }
+function bust(url){
+  const sep = url.includes("?") ? "&" : "?";
+  return `${url}${sep}v=${Date.now()}`;
+}?v=${Date.now()}`; }
 
 function renderTable(players){
   lbTable.innerHTML = `
@@ -35,7 +38,7 @@ function renderTable(players){
 
 async function load(){
   try{
-    const res = await fetch(bust("./data/leaderboard.json"), { cache:"no-store" });
+    const res = await fetch(bust("./leaderboard.json"), { cache:"no-store" });
     const data = await res.json();
 
     const err = validateLeaderboard(data);
@@ -47,8 +50,9 @@ async function load(){
     renderTop10Chart(data.players);
 
   }catch(e){
-    showError("Failed to load ./data/leaderboard.json (missing or invalid JSON).");
-  }
+    console.error(e);
+    showError("Failed to load ./leaderboard.json (missing, invalid JSON, or wrong path).");
+}
 }
 
 load();
