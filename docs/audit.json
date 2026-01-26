@@ -1,0 +1,5 @@
+{
+  "events": [
+    { "ts": "2026-01-26T01:00:00-05:00", "actor": "system", "action": "site_boot", "detail": "Initial dashboard enabled" }
+  ]
+}

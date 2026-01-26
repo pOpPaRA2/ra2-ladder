@@ -1,0 +1,7 @@
+{
+  "entries": [
+    { "title": "Peak Rating", "subtitle": "Highest rating achieved", "rows": [] },
+    { "title": "Most Wins", "subtitle": "All-time wins", "rows": [] },
+    { "title": "Longest Win Streak", "subtitle": "All-time streaks", "rows": [] }
+  ]
+}
