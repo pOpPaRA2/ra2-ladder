@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Player • RA2 Ladder</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <h1 id="pName">Player</h1>
+  <div class="topnav">
+    <a class="btn" href="./index.html">Ladder</a>
+    <a class="btn" href="./hof.html">Hall of Fame</a>
+    <a class="btn" href="./admin.html">Admin</a>
+  </div>
+
+  <div id="errorBox" class="err" style="display:none;"></div>
+
+  <div class="section">
+    <div class="muted" id="pMeta">Loading…</div>
+    <canvas id="eloChart" height="240"></canvas>
+  </div>
+
+  <table>
+    <thead>
+      <tr><th>Date</th><th>Opponent</th><th>Result</th><th>ΔELO</th></tr>
+    </thead>
+    <tbody id="mRows"></tbody>
+  </table>
+
+  <script type="module">
+    import { renderPlayerPage } from "./js/core.js";
+    renderPlayerPage();
+  </script>
+</body>
+</html>

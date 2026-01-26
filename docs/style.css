@@ -1,5 +1,6 @@
 :root{
   --bg:#05060a;
+  --bg2:#0a0f1e;
   --panel: rgba(8, 12, 20, .78);
   --border: rgba(45,252,255,.25);
   --text:#eaf2ff;
@@ -7,9 +8,14 @@
   --neonC:#2dfcff;
   --neonB:#7c5cff;
   --neonR:#ff2d55;
+  --good:#31ff7a;
+  --bad:#ff496a;
+  --gold:#ffd166;
 }
 
 *{box-sizing:border-box}
+html,body{height:100%}
+
 body{
   margin:0;
   color:var(--text);
@@ -18,11 +24,29 @@ body{
     radial-gradient(900px 500px at 20% 10%, rgba(45,252,255,.14), transparent 60%),
     radial-gradient(900px 500px at 90% 20%, rgba(124,92,255,.14), transparent 60%),
     radial-gradient(700px 450px at 45% 90%, rgba(255,45,85,.10), transparent 60%),
-    linear-gradient(180deg, #05060a, #0a0f1e);
+    linear-gradient(180deg, var(--bg), var(--bg2));
 }
+
+a{color:var(--neonC); text-decoration:none}
+a:hover{text-decoration:underline}
 
 h1{margin:16px 16px 6px}
 .sub{color:var(--muted);margin:0 16px 14px}
+
+.topnav{
+  display:flex; gap:10px; flex-wrap:wrap;
+  margin: 0 16px 10px;
+}
+.btn{
+  display:inline-flex; align-items:center; gap:8px;
+  padding:9px 11px;
+  border-radius:12px;
+  background: rgba(0,0,0,.35);
+  border:1px solid var(--border);
+  color:var(--text);
+  box-shadow: 0 0 16px rgba(45,252,255,.10);
+}
+.btn:hover{box-shadow: 0 0 22px rgba(45,252,255,.16)}
 
 input{
   margin:0 16px;
@@ -39,6 +63,15 @@ input{
 input:focus{
   border-color: rgba(45,252,255,.55);
   box-shadow: 0 0 20px rgba(45,252,255,.20);
+}
+
+.section{
+  margin: 14px 16px;
+  padding: 12px 12px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: 0 0 22px rgba(45,252,255,.12), 0 0 30px rgba(124,92,255,.08);
 }
 
 table{
@@ -92,10 +125,10 @@ th{
   box-shadow: 0 0 10px rgba(45,252,255,.25);
 }
 
-.rank-s     { border-color: rgba(255,209,102,.35);} .rank-s .badge-dot{background:#ffd166; box-shadow:0 0 12px rgba(255,209,102,.35);}
-.rank-aplus { border-color: rgba(124,92,255,.35);}  .rank-aplus .badge-dot{background:#7c5cff; box-shadow:0 0 12px rgba(124,92,255,.35);}
-.rank-a     { border-color: rgba(45,252,255,.35);}  .rank-a .badge-dot{background:#2dfcff; box-shadow:0 0 12px rgba(45,252,255,.35);}
-.rank-bplus { border-color: rgba(49,255,122,.35);}  .rank-bplus .badge-dot{background:#31ff7a; box-shadow:0 0 12px rgba(49,255,122,.30);}
+.rank-s     { border-color: rgba(255,209,102,.35);} .rank-s .badge-dot{background:var(--gold); box-shadow:0 0 12px rgba(255,209,102,.35);}
+.rank-aplus { border-color: rgba(124,92,255,.35);}  .rank-aplus .badge-dot{background:var(--neonB); box-shadow:0 0 12px rgba(124,92,255,.35);}
+.rank-a     { border-color: rgba(45,252,255,.35);}  .rank-a .badge-dot{background:var(--neonC); box-shadow:0 0 12px rgba(45,252,255,.35);}
+.rank-bplus { border-color: rgba(49,255,122,.35);}  .rank-bplus .badge-dot{background:var(--good); box-shadow:0 0 12px rgba(49,255,122,.30);}
 .rank-b     { border-color: rgba(34,197,94,.35);}   .rank-b .badge-dot{background:#22c55e; box-shadow:0 0 12px rgba(34,197,94,.30);}
 .rank-bminus{ border-color: rgba(22,163,74,.35);}   .rank-bminus .badge-dot{background:#16a34a; box-shadow:0 0 12px rgba(22,163,74,.30);}
 .rank-cplus { border-color: rgba(249,115,22,.35);}  .rank-cplus .badge-dot{background:#f97316; box-shadow:0 0 12px rgba(249,115,22,.30);}
@@ -111,3 +144,5 @@ th{
   background: rgba(42,11,20,.70);
   box-shadow: 0 0 18px rgba(255,73,106,.18);
 }
+.good{color:var(--good)}
+.bad{color:var(--bad)}

@@ -4,172 +4,44 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>RA2 Ladder</title>
-
-  <!-- RA2 THEME (docs/style.css) -->
   <link rel="stylesheet" href="./style.css">
-
-  <!-- Chart.js for live graphs -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script type="module" src="./js/core.js"></script>
 </head>
-
 <body>
   <h1>RA2 Ladder</h1>
+  <div class="topnav">
+    <a class="btn" href="./index.html">Ladder</a>
+    <a class="btn" href="./hof.html">Hall of Fame</a>
+    <a class="btn" href="./admin.html">Admin</a>
+  </div>
 
-  <!-- Meta + error -->
   <div class="sub" id="meta">Loading…</div>
   <div id="errorBox" class="err" style="display:none;"></div>
 
   <input id="q" placeholder="Search by username, user_id, or class (e.g. S, A+)" />
 
-  <!-- Live ELO Graph -->
-  <div style="margin-top:14px; max-width:900px;">
+  <div class="section">
+    <div class="muted">Top 10 Rating (live)</div>
     <canvas id="chartTop10" height="220"></canvas>
   </div>
 
   <table>
     <thead>
       <tr>
-        <th>#</th>
-        <th>User</th>
-        <th>Class</th>
-        <th>Rating</th>
-        <th>W</th>
-        <th>L</th>
-        <th>Games</th>
-        <th>Win Streak</th>
-        <th>Loss Streak</th>
-        <th>Dodges</th>
-        <th>Last Match</th>
+        <th>#</th><th>User</th><th>Class</th><th>Rating</th><th>W</th><th>L</th>
+        <th>Games</th><th>Win Streak</th><th>Loss Streak</th><th>Dodges</th><th>Last Match</th>
       </tr>
     </thead>
     <tbody id="rows"></tbody>
   </table>
 
-<script>
-let _chart = null;
-
-function showError(msg){
-  const box = document.getElementById("errorBox");
-  box.style.display = "block";
-  box.textContent = msg;
-}
-function hideError(){
-  const box = document.getElementById("errorBox");
-  box.style.display = "none";
-  box.textContent = "";
-}
-function bust(url){ return url + "?v=" + Date.now(); }
-
-function displayName(p){
-  if (p.display_name && String(p.display_name).trim()) return p.display_name;
-  if (p.username && String(p.username).trim()) return p.username;
-  return String(p.user_id);
-}
-
-function normalizeClass(c){
-  return String(c ?? "").trim().toUpperCase();
-}
-function rankClassName(c){
-  const cc = normalizeClass(c);
-  if (cc === "S") return "rank-s";
-  if (cc === "A+") return "rank-aplus";
-  if (cc === "A") return "rank-a";
-  if (cc === "B+") return "rank-bplus";
-  if (cc === "B") return "rank-b";
-  if (cc === "B-") return "rank-bminus";
-  if (cc === "C+") return "rank-cplus";
-  if (cc === "C") return "rank-c";
-  if (cc === "C-") return "rank-cminus";
-  return "rank-unk";
-}
-function classBadge(c){
-  const cc = normalizeClass(c) || "—";
-  return `<span class="badge ${rankClassName(cc)}">
-    <span class="badge-dot"></span>${cc}
-  </span>`;
-}
-
-function renderTop10Chart(players){
-  const top = [...players]
-    .map(p => ({ name: displayName(p), rating: Number(p.rating) }))
-    .filter(p => !isNaN(p.rating))
-    .sort((a,b)=>b.rating-a.rating)
-    .slice(0,10)
-    .reverse();
-
-  const labels = top.map(p=>p.name);
-  const values = top.map(p=>p.rating);
-
-  const ctx = document.getElementById("chartTop10");
-  if (_chart) _chart.destroy();
-
-  _chart = new Chart(ctx, {
-    type: "bar",
-    data: { labels, datasets: [{ data: values }] },
-    options: {
-      responsive: true,
-      plugins: { legend: { display: false } }
-    }
-  });
-}
-
-function renderTable(data, filterText=""){
-  const tbody = document.getElementById("rows");
-  tbody.innerHTML = "";
-  const ft = filterText.toLowerCase();
-
-  data.players
-    .filter(p =>
-      String(p.user_id).includes(ft) ||
-      String(p.class).toLowerCase().includes(ft) ||
-      String(p.display_name ?? "").toLowerCase().includes(ft) ||
-      String(p.username ?? "").toLowerCase().includes(ft)
-    )
-    .forEach((p, i) => {
-      const tr = document.createElement("tr");
-      tr.innerHTML = `
-        <td>${i+1}</td>
-        <td><span class="pill">${displayName(p)}</span></td>
-        <td>${classBadge(p.class)}</td>
-        <td>${p.rating}</td>
-        <td>${p.wins}</td>
-        <td>${p.losses}</td>
-        <td>${p.games}</td>
-        <td>${p.win_streak}</td>
-        <td>${p.loss_streak}</td>
-        <td>${p.dodges}</td>
-        <td class="muted">${p.last_match ?? ""}</td>
-      `;
-      tbody.appendChild(tr);
+  <script type="module">
+    import { loadLeaderboard, renderLeaderboardPage } from "./js/core.js";
+    renderLeaderboardPage({
+      leaderboardPath: "./leaderboard.json",
+      onTick: loadLeaderboard
     });
-}
-
-async function loadOnce(){
-  try{
-    const res = await fetch(bust("./leaderboard.json"), { cache:"no-store" });
-    const data = await res.json();
-
-    if (!Array.isArray(data.players)) {
-      showError("Invalid leaderboard.json format");
-      return;
-    }
-    hideError();
-
-    document.getElementById("meta").textContent =
-      `Players: ${data.players.length} • Updated: ${data.generated_at ?? "unknown"}`;
-
-    const input = document.getElementById("q");
-    renderTable(data, input.value);
-    renderTop10Chart(data.players);
-
-  } catch {
-    showError("Failed to load leaderboard.json");
-  }
-}
-
-document.getElementById("q").addEventListener("input", loadOnce);
-loadOnce();
-setInterval(loadOnce, 30000);
-</script>
+  </script>
 </body>
 </html>
