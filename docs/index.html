@@ -4,53 +4,27 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>RA2 Ladder</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 16px; }
-    h1 { margin: 0 0 6px 0; }
-    .sub { color: #666; margin-bottom: 16px; }
-    input { padding: 8px; width: 280px; max-width: 100%; }
-    table { border-collapse: collapse; width: 100%; margin-top: 12px; }
-    th, td { border-bottom: 1px solid #eee; padding: 10px; text-align: left; }
-    th { position: sticky; top: 0; background: #fff; }
-    .muted { color:#777; font-size: 12px; }
-    .pill { padding: 2px 8px; border-radius: 999px; background:#f4f4f4; display:inline-block; }
 
-    .badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 2px 10px;
-      border-radius: 999px;
-      font-weight: 700;
-      font-size: 12px;
-      border: 1px solid rgba(0,0,0,0.08);
-      background: #f6f6f6;
-    }
-    .badge-dot {
-      width: 8px;
-      height: 8px;
-      border-radius: 999px;
-      display: inline-block;
-      background: #bbb;
-    }
+  <!-- STEP 2: Correct CSS link for GitHub Pages -->
+  <link rel="stylesheet" href="./style.css">
 
-    .rank-s     { background: #fff3cd; }  .rank-s .badge-dot     { background: #d39e00; }
-    .rank-aplus { background: #e8f0ff; }  .rank-aplus .badge-dot { background: #2f5cff; }
-    .rank-a     { background: #eef6ff; }  .rank-a .badge-dot     { background: #3b82f6; }
-    .rank-bplus { background: #e8fff0; }  .rank-bplus .badge-dot { background: #22c55e; }
-    .rank-b     { background: #f0fff4; }  .rank-b .badge-dot     { background: #16a34a; }
-    .rank-bminus{ background: #f5fff8; }  .rank-bminus .badge-dot{ background: #15803d; }
-    .rank-cplus { background: #fff7ed; }  .rank-cplus .badge-dot { background: #f97316; }
-    .rank-c     { background: #fff2f2; }  .rank-c .badge-dot     { background: #ef4444; }
-    .rank-cminus{ background: #fff2f2; }  .rank-cminus .badge-dot{ background: #dc2626; }
-    .rank-unk   { background: #f4f4f5; }  .rank-unk .badge-dot   { background: #71717a; }
-  </style>
+  <!-- Chart.js for live graphs -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 </head>
+
 <body>
   <h1>RA2 Ladder</h1>
+
+  <!-- STEP 5: meta + error area -->
   <div class="sub" id="meta">Loading…</div>
+  <div id="errorBox" style="display:none;" class="err"></div>
 
   <input id="q" placeholder="Search by username, user_id, or class (e.g. S, A+)" />
+
+  <!-- STEP 5: add a graph canvas (put it wherever you want) -->
+  <div style="margin-top:14px; max-width: 900px;">
+    <canvas id="chartTop10" height="220"></canvas>
+  </div>
 
   <table>
     <thead>
@@ -72,85 +46,140 @@
   </table>
 
 <script>
-async function load() {
-  const res = await fetch("./leaderboard.json", { cache: "no-store" });
-  const data = await res.json();
+let _chart = null;
 
-  document.getElementById("meta").textContent =
-    `Players: ${data.count} • Updated: ${data.generated_at}`;
-
-  const input = document.getElementById("q");
-  const tbody = document.getElementById("rows");
-
-  function displayName(p) {
-    if (p.display_name && String(p.display_name).trim()) {
-      return p.display_name;
-    }
-    if (p.username && String(p.username).trim()) {
-      return p.username;
-    }
-    return String(p.user_id);
-  }
-
-  function normalizeClass(c) {
-    return String(c ?? "").trim().toUpperCase();
-  }
-
-  function rankClassName(c) {
-    const cc = normalizeClass(c);
-    if (cc === "S") return "rank-s";
-    if (cc === "A+") return "rank-aplus";
-    if (cc === "A") return "rank-a";
-    if (cc === "B+") return "rank-bplus";
-    if (cc === "B") return "rank-b";
-    if (cc === "B-") return "rank-bminus";
-    if (cc === "C+") return "rank-cplus";
-    if (cc === "C") return "rank-c";
-    if (cc === "C-") return "rank-cminus";
-    return "rank-unk";
-  }
-
-  function classBadge(c) {
-    const cc = normalizeClass(c) || "—";
-    return `<span class="badge ${rankClassName(cc)}">
-      <span class="badge-dot"></span>${cc}
-    </span>`;
-  }
-
-  function render(filterText="") {
-    tbody.innerHTML = "";
-    const ft = filterText.trim().toLowerCase();
-
-    data.players
-      .filter(p =>
-        String(p.user_id).includes(ft) ||
-        String(p.class).toLowerCase().includes(ft) ||
-        String(p.display_name ?? "").toLowerCase().includes(ft) ||
-        String(p.username ?? "").toLowerCase().includes(ft)
-      )
-      .forEach((p, i) => {
-        const tr = document.createElement("tr");
-        tr.innerHTML = `
-          <td>${i + 1}</td>
-          <td><span class="pill">${displayName(p)}</span></td>
-          <td>${classBadge(p.class)}</td>
-          <td>${p.rating}</td>
-          <td>${p.wins}</td>
-          <td>${p.losses}</td>
-          <td>${p.games}</td>
-          <td>${p.win_streak}</td>
-          <td>${p.loss_streak}</td>
-          <td>${p.dodges}</td>
-          <td class="muted">${p.last_match ?? ""}</td>
-        `;
-        tbody.appendChild(tr);
-      });
-  }
-
-  input.addEventListener("input", () => render(input.value));
-  render();
+function showError(msg){
+  const box = document.getElementById("errorBox");
+  box.style.display = "block";
+  box.textContent = msg;
 }
-load();
+function hideError(){
+  const box = document.getElementById("errorBox");
+  box.style.display = "none";
+  box.textContent = "";
+}
+function bust(url){ return url + "?v=" + Date.now(); }
+
+function displayName(p) {
+  if (p.display_name && String(p.display_name).trim()) return p.display_name;
+  if (p.username && String(p.username).trim()) return p.username;
+  return String(p.user_id);
+}
+function normalizeClass(c) {
+  return String(c ?? "").trim().toUpperCase();
+}
+function rankClassName(c) {
+  const cc = normalizeClass(c);
+  if (cc === "S") return "rank-s";
+  if (cc === "A+") return "rank-aplus";
+  if (cc === "A") return "rank-a";
+  if (cc === "B+") return "rank-bplus";
+  if (cc === "B") return "rank-b";
+  if (cc === "B-") return "rank-bminus";
+  if (cc === "C+") return "rank-cplus";
+  if (cc === "C") return "rank-c";
+  if (cc === "C-") return "rank-cminus";
+  return "rank-unk";
+}
+function classBadge(c) {
+  const cc = normalizeClass(c) || "—";
+  return `<span class="badge ${rankClassName(cc)}">
+    <span class="badge-dot"></span>${cc}
+  </span>`;
+}
+
+function renderTop10Chart(players){
+  // Use rating as ELO for now (you can rename later)
+  const top = [...players]
+    .filter(p => typeof p.rating === "number" || !isNaN(Number(p.rating)))
+    .map(p => ({ name: displayName(p), rating: Number(p.rating) }))
+    .sort((a,b)=>b.rating-a.rating)
+    .slice(0,10)
+    .reverse();
+
+  const labels = top.map(p=>p.name);
+  const values = top.map(p=>p.rating);
+
+  const ctx = document.getElementById("chartTop10");
+  if(_chart) _chart.destroy();
+
+  _chart = new Chart(ctx, {
+    type: "bar",
+    data: { labels, datasets: [{ label:"Top 10 Rating", data: values }] },
+    options: {
+      responsive: true,
+      plugins: { legend: { display: false } }
+    }
+  });
+}
+
+function renderTable(data, filterText=""){
+  const tbody = document.getElementById("rows");
+  tbody.innerHTML = "";
+  const ft = filterText.trim().toLowerCase();
+
+  (data.players || [])
+    .filter(p =>
+      String(p.user_id).includes(ft) ||
+      String(p.class).toLowerCase().includes(ft) ||
+      String(p.display_name ?? "").toLowerCase().includes(ft) ||
+      String(p.username ?? "").toLowerCase().includes(ft)
+    )
+    .forEach((p, i) => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>${i + 1}</td>
+        <td><span class="pill">${displayName(p)}</span></td>
+        <td>${classBadge(p.class)}</td>
+        <td>${p.rating}</td>
+        <td>${p.wins}</td>
+        <td>${p.losses}</td>
+        <td>${p.games}</td>
+        <td>${p.win_streak}</td>
+        <td>${p.loss_streak}</td>
+        <td>${p.dodges}</td>
+        <td class="muted">${p.last_match ?? ""}</td>
+      `;
+      tbody.appendChild(tr);
+    });
+}
+
+async function loadOnce(){
+  try{
+    // NOTE: Your current file is docs/leaderboard.json (same folder as index.html)
+    const res = await fetch(bust("./leaderboard.json"), { cache: "no-store" });
+    const data = await res.json();
+
+    // Basic validation
+    if(!data || !Array.isArray(data.players)){
+      showError("leaderboard.json missing players[] or invalid JSON structure.");
+      return;
+    }
+    hideError();
+
+    document.getElementById("meta").textContent =
+      `Players: ${data.count ?? (data.players?.length ?? 0)} • Updated: ${data.generated_at ?? "unknown"}`;
+
+    const input = document.getElementById("q");
+    renderTable(data, input.value);
+    renderTop10Chart(data.players);
+
+  }catch(e){
+    showError("Failed to load ./leaderboard.json. Check file exists in /docs and is valid JSON.");
+  }
+}
+
+function init(){
+  const input = document.getElementById("q");
+  input.addEventListener("input", () => loadOnce());
+
+  loadOnce();
+
+  // Auto-refresh (live feel)
+  setInterval(loadOnce, 30000);
+}
+
+init();
 </script>
 </body>
 </html>
