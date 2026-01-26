@@ -146,3 +146,21 @@ th{
 }
 .good{color:var(--good)}
 .bad{color:var(--bad)}
+/* ==============================
+   HARD DISABLE ALL GRAPHS / CHARTS
+   ============================== */
+
+/* Hide chart canvas itself */
+canvas,
+#ratingChart {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  width: 0 !important;
+}
+
+/* Remove the entire section that contains the graph */
+.section:has(canvas),
+.section:has(#ratingChart) {
+  display: none !important;
+}
