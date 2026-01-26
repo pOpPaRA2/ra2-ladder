@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>RA2 Ladder</title>
 
-  <!-- STEP 2: Correct CSS link for GitHub Pages -->
+  <!-- RA2 THEME (docs/style.css) -->
   <link rel="stylesheet" href="./style.css">
 
   <!-- Chart.js for live graphs -->
@@ -15,14 +15,14 @@
 <body>
   <h1>RA2 Ladder</h1>
 
-  <!-- STEP 5: meta + error area -->
+  <!-- Meta + error -->
   <div class="sub" id="meta">Loading…</div>
-  <div id="errorBox" style="display:none;" class="err"></div>
+  <div id="errorBox" class="err" style="display:none;"></div>
 
   <input id="q" placeholder="Search by username, user_id, or class (e.g. S, A+)" />
 
-  <!-- STEP 5: add a graph canvas (put it wherever you want) -->
-  <div style="margin-top:14px; max-width: 900px;">
+  <!-- Live ELO Graph -->
+  <div style="margin-top:14px; max-width:900px;">
     <canvas id="chartTop10" height="220"></canvas>
   </div>
 
@@ -60,15 +60,16 @@ function hideError(){
 }
 function bust(url){ return url + "?v=" + Date.now(); }
 
-function displayName(p) {
+function displayName(p){
   if (p.display_name && String(p.display_name).trim()) return p.display_name;
   if (p.username && String(p.username).trim()) return p.username;
   return String(p.user_id);
 }
-function normalizeClass(c) {
+
+function normalizeClass(c){
   return String(c ?? "").trim().toUpperCase();
 }
-function rankClassName(c) {
+function rankClassName(c){
   const cc = normalizeClass(c);
   if (cc === "S") return "rank-s";
   if (cc === "A+") return "rank-aplus";
@@ -81,7 +82,7 @@ function rankClassName(c) {
   if (cc === "C-") return "rank-cminus";
   return "rank-unk";
 }
-function classBadge(c) {
+function classBadge(c){
   const cc = normalizeClass(c) || "—";
   return `<span class="badge ${rankClassName(cc)}">
     <span class="badge-dot"></span>${cc}
@@ -89,10 +90,9 @@ function classBadge(c) {
 }
 
 function renderTop10Chart(players){
-  // Use rating as ELO for now (you can rename later)
   const top = [...players]
-    .filter(p => typeof p.rating === "number" || !isNaN(Number(p.rating)))
     .map(p => ({ name: displayName(p), rating: Number(p.rating) }))
+    .filter(p => !isNaN(p.rating))
     .sort((a,b)=>b.rating-a.rating)
     .slice(0,10)
     .reverse();
@@ -101,11 +101,11 @@ function renderTop10Chart(players){
   const values = top.map(p=>p.rating);
 
   const ctx = document.getElementById("chartTop10");
-  if(_chart) _chart.destroy();
+  if (_chart) _chart.destroy();
 
   _chart = new Chart(ctx, {
     type: "bar",
-    data: { labels, datasets: [{ label:"Top 10 Rating", data: values }] },
+    data: { labels, datasets: [{ data: values }] },
     options: {
       responsive: true,
       plugins: { legend: { display: false } }
@@ -116,9 +116,9 @@ function renderTop10Chart(players){
 function renderTable(data, filterText=""){
   const tbody = document.getElementById("rows");
   tbody.innerHTML = "";
-  const ft = filterText.trim().toLowerCase();
+  const ft = filterText.toLowerCase();
 
-  (data.players || [])
+  data.players
     .filter(p =>
       String(p.user_id).includes(ft) ||
       String(p.class).toLowerCase().includes(ft) ||
@@ -128,7 +128,7 @@ function renderTable(data, filterText=""){
     .forEach((p, i) => {
       const tr = document.createElement("tr");
       tr.innerHTML = `
-        <td>${i + 1}</td>
+        <td>${i+1}</td>
         <td><span class="pill">${displayName(p)}</span></td>
         <td>${classBadge(p.class)}</td>
         <td>${p.rating}</td>
@@ -146,40 +146,30 @@ function renderTable(data, filterText=""){
 
 async function loadOnce(){
   try{
-    // NOTE: Your current file is docs/leaderboard.json (same folder as index.html)
-    const res = await fetch(bust("./leaderboard.json"), { cache: "no-store" });
+    const res = await fetch(bust("./leaderboard.json"), { cache:"no-store" });
     const data = await res.json();
 
-    // Basic validation
-    if(!data || !Array.isArray(data.players)){
-      showError("leaderboard.json missing players[] or invalid JSON structure.");
+    if (!Array.isArray(data.players)) {
+      showError("Invalid leaderboard.json format");
       return;
     }
     hideError();
 
     document.getElementById("meta").textContent =
-      `Players: ${data.count ?? (data.players?.length ?? 0)} • Updated: ${data.generated_at ?? "unknown"}`;
+      `Players: ${data.players.length} • Updated: ${data.generated_at ?? "unknown"}`;
 
     const input = document.getElementById("q");
     renderTable(data, input.value);
     renderTop10Chart(data.players);
 
-  }catch(e){
-    showError("Failed to load ./leaderboard.json. Check file exists in /docs and is valid JSON.");
+  } catch {
+    showError("Failed to load leaderboard.json");
   }
 }
 
-function init(){
-  const input = document.getElementById("q");
-  input.addEventListener("input", () => loadOnce());
-
-  loadOnce();
-
-  // Auto-refresh (live feel)
-  setInterval(loadOnce, 30000);
-}
-
-init();
+document.getElementById("q").addEventListener("input", loadOnce);
+loadOnce();
+setInterval(loadOnce, 30000);
 </script>
 </body>
 </html>
