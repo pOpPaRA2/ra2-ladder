@@ -146,21 +146,46 @@ th{
 }
 .good{color:var(--good)}
 .bad{color:var(--bad)}
+
 /* ==============================
    HARD DISABLE ALL GRAPHS / CHARTS
+   (no :has() so it works everywhere)
    ============================== */
 
-/* Hide chart canvas itself */
+/* Kill common chart render targets */
 canvas,
-#ratingChart {
+svg.chart,
+svg.recharts-surface,
+.chart,
+.chart-container,
+.graph,
+.graph-container,
+.chartjs-render-monitor,
+.chartjs-size-monitor,
+.chartjs-size-monitor-expand,
+.chartjs-size-monitor-shrink,
+.chartjs-size-monitor-expand > div,
+.chartjs-size-monitor-shrink > div,
+#ratingChart,
+#top10Chart,
+#eloChart,
+#mmrChart,
+#historyChart,
+#trendChart {
   display: none !important;
   visibility: hidden !important;
   height: 0 !important;
   width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  overflow: hidden !important;
 }
 
-/* Remove the entire section that contains the graph */
-.section:has(canvas),
-.section:has(#ratingChart) {
+/* If the chart is inside a .section, remove its space */
+.section canvas,
+.section svg {
   display: none !important;
+  height: 0 !important;
+  width: 0 !important;
 }
