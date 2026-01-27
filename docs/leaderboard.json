@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-01-27 01:57:44 UTC",
+  "generated_at": "2026-01-27 02:11:00 UTC",
   "count": 151,
   "players": [
     {
       "user_id": 272775776074465281,
-      "username": null,
+      "username": "272775776074465281",
       "class": "B+",
       "rating": 1134,
       "wins": 6,
@@ -17,7 +17,7 @@
     },
     {
       "user_id": 564540700876603392,
-      "username": null,
+      "username": "564540700876603392",
       "class": "B+",
       "rating": 1093,
       "wins": 7,
@@ -30,7 +30,7 @@
     },
     {
       "user_id": 522996129399439360,
-      "username": null,
+      "username": "522996129399439360",
       "class": "B-",
       "rating": 1086,
       "wins": 4,
@@ -43,7 +43,7 @@
     },
     {
       "user_id": 841744096287784960,
-      "username": null,
+      "username": "841744096287784960",
       "class": "B-",
       "rating": 1078,
       "wins": 6,
@@ -56,7 +56,7 @@
     },
     {
       "user_id": 1193403086081896609,
-      "username": null,
+      "username": "1193403086081896609",
       "class": "C+",
       "rating": 1055,
       "wins": 5,
@@ -69,7 +69,7 @@
     },
     {
       "user_id": 384408474190348288,
-      "username": null,
+      "username": "384408474190348288",
       "class": "C+",
       "rating": 1051,
       "wins": 3,
@@ -82,7 +82,7 @@
     },
     {
       "user_id": 238762226297733131,
-      "username": null,
+      "username": "238762226297733131",
       "class": "C+",
       "rating": 1020,
       "wins": 3,
@@ -95,7 +95,7 @@
     },
     {
       "user_id": 435478413860536322,
-      "username": null,
+      "username": "435478413860536322",
       "class": "C",
       "rating": 1020,
       "wins": 1,
@@ -108,7 +108,7 @@
     },
     {
       "user_id": 578681828639244298,
-      "username": null,
+      "username": "578681828639244298",
       "class": "C",
       "rating": 1020,
       "wins": 1,
@@ -121,7 +121,7 @@
     },
     {
       "user_id": 395528551928954881,
-      "username": null,
+      "username": "395528551928954881",
       "class": "C",
       "rating": 1008,
       "wins": 4,
@@ -134,7 +134,7 @@
     },
     {
       "user_id": 717980333487685667,
-      "username": null,
+      "username": "717980333487685667",
       "class": "C+",
       "rating": 1000,
       "wins": 4,
@@ -147,7 +147,7 @@
     },
     {
       "user_id": 161509188214718464,
-      "username": null,
+      "username": "161509188214718464",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -160,7 +160,7 @@
     },
     {
       "user_id": 190406949743886336,
-      "username": null,
+      "username": "190406949743886336",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -173,7 +173,7 @@
     },
     {
       "user_id": 195645517324222464,
-      "username": null,
+      "username": "195645517324222464",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -186,7 +186,7 @@
     },
     {
       "user_id": 212233231129509899,
-      "username": null,
+      "username": "212233231129509899",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -199,7 +199,7 @@
     },
     {
       "user_id": 216028795919007745,
-      "username": null,
+      "username": "216028795919007745",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -212,7 +212,7 @@
     },
     {
       "user_id": 217727886487060480,
-      "username": null,
+      "username": "217727886487060480",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -225,7 +225,7 @@
     },
     {
       "user_id": 228537644844449793,
-      "username": null,
+      "username": "228537644844449793",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -238,7 +238,7 @@
     },
     {
       "user_id": 238425303246962689,
-      "username": null,
+      "username": "238425303246962689",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -251,7 +251,7 @@
     },
     {
       "user_id": 243456756360019968,
-      "username": null,
+      "username": "243456756360019968",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -264,7 +264,7 @@
     },
     {
       "user_id": 261242531965173760,
-      "username": null,
+      "username": "261242531965173760",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -277,7 +277,7 @@
     },
     {
       "user_id": 265345532480847872,
-      "username": null,
+      "username": "265345532480847872",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -290,7 +290,7 @@
     },
     {
       "user_id": 272191478833348608,
-      "username": null,
+      "username": "272191478833348608",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -303,7 +303,7 @@
     },
     {
       "user_id": 272697838750793730,
-      "username": null,
+      "username": "272697838750793730",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -316,7 +316,7 @@
     },
     {
       "user_id": 272832676937990145,
-      "username": null,
+      "username": "272832676937990145",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -329,7 +329,7 @@
     },
     {
       "user_id": 276980205984415745,
-      "username": null,
+      "username": "276980205984415745",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -342,7 +342,7 @@
     },
     {
       "user_id": 279702886223446016,
-      "username": null,
+      "username": "279702886223446016",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -355,7 +355,7 @@
     },
     {
       "user_id": 292019553204961282,
-      "username": null,
+      "username": "292019553204961282",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -368,7 +368,7 @@
     },
     {
       "user_id": 293175003736834058,
-      "username": null,
+      "username": "293175003736834058",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -381,7 +381,7 @@
     },
     {
       "user_id": 308301894626050049,
-      "username": null,
+      "username": "308301894626050049",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -394,7 +394,7 @@
     },
     {
       "user_id": 316947169993293825,
-      "username": null,
+      "username": "316947169993293825",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -407,7 +407,7 @@
     },
     {
       "user_id": 317591106248245261,
-      "username": null,
+      "username": "317591106248245261",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -420,7 +420,7 @@
     },
     {
       "user_id": 334929695709724673,
-      "username": null,
+      "username": "334929695709724673",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -433,7 +433,7 @@
     },
     {
       "user_id": 344569923047129091,
-      "username": null,
+      "username": "344569923047129091",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -446,7 +446,7 @@
     },
     {
       "user_id": 359137879622156288,
-      "username": null,
+      "username": "359137879622156288",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -459,7 +459,7 @@
     },
     {
       "user_id": 379249571601317889,
-      "username": null,
+      "username": "379249571601317889",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -472,7 +472,7 @@
     },
     {
       "user_id": 391732751457320981,
-      "username": null,
+      "username": "391732751457320981",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -485,7 +485,7 @@
     },
     {
       "user_id": 395552015377235989,
-      "username": null,
+      "username": "395552015377235989",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -498,7 +498,7 @@
     },
     {
       "user_id": 395690923885068288,
-      "username": null,
+      "username": "395690923885068288",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -511,7 +511,7 @@
     },
     {
       "user_id": 399408693302788107,
-      "username": null,
+      "username": "399408693302788107",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -524,7 +524,7 @@
     },
     {
       "user_id": 402319806402920469,
-      "username": null,
+      "username": "402319806402920469",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -537,7 +537,7 @@
     },
     {
       "user_id": 407592890756235264,
-      "username": null,
+      "username": "407592890756235264",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -550,7 +550,7 @@
     },
     {
       "user_id": 408734659032383499,
-      "username": null,
+      "username": "408734659032383499",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -563,7 +563,7 @@
     },
     {
       "user_id": 412309022218125314,
-      "username": null,
+      "username": "412309022218125314",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -576,7 +576,7 @@
     },
     {
       "user_id": 427187616195149835,
-      "username": null,
+      "username": "427187616195149835",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -589,7 +589,7 @@
     },
     {
       "user_id": 428217648522723338,
-      "username": null,
+      "username": "428217648522723338",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -602,7 +602,7 @@
     },
     {
       "user_id": 432584071307067394,
-      "username": null,
+      "username": "432584071307067394",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -615,7 +615,7 @@
     },
     {
       "user_id": 440587592115683331,
-      "username": null,
+      "username": "440587592115683331",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -628,7 +628,7 @@
     },
     {
       "user_id": 453575389307207690,
-      "username": null,
+      "username": "453575389307207690",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -641,7 +641,7 @@
     },
     {
       "user_id": 457514711848714241,
-      "username": null,
+      "username": "457514711848714241",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -654,7 +654,7 @@
     },
     {
       "user_id": 460346056044183572,
-      "username": null,
+      "username": "460346056044183572",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -667,7 +667,7 @@
     },
     {
       "user_id": 464896640545980446,
-      "username": null,
+      "username": "464896640545980446",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -680,7 +680,7 @@
     },
     {
       "user_id": 488856385744928790,
-      "username": null,
+      "username": "488856385744928790",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -693,7 +693,7 @@
     },
     {
       "user_id": 503483081701851136,
-      "username": null,
+      "username": "503483081701851136",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -706,7 +706,7 @@
     },
     {
       "user_id": 516045104000270390,
-      "username": null,
+      "username": "516045104000270390",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -719,7 +719,7 @@
     },
     {
       "user_id": 534060013921108004,
-      "username": null,
+      "username": "534060013921108004",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -732,7 +732,7 @@
     },
     {
       "user_id": 543061432497995776,
-      "username": null,
+      "username": "543061432497995776",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -745,7 +745,7 @@
     },
     {
       "user_id": 547730216286421001,
-      "username": null,
+      "username": "547730216286421001",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -758,7 +758,7 @@
     },
     {
       "user_id": 552256786166579203,
-      "username": null,
+      "username": "552256786166579203",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -771,7 +771,7 @@
     },
     {
       "user_id": 557375589674123265,
-      "username": null,
+      "username": "557375589674123265",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -784,7 +784,7 @@
     },
     {
       "user_id": 558121490894028801,
-      "username": null,
+      "username": "558121490894028801",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -797,7 +797,7 @@
     },
     {
       "user_id": 560222926423457793,
-      "username": null,
+      "username": "560222926423457793",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -810,7 +810,7 @@
     },
     {
       "user_id": 581317496653742085,
-      "username": null,
+      "username": "581317496653742085",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -823,7 +823,7 @@
     },
     {
       "user_id": 604973302523625502,
-      "username": null,
+      "username": "604973302523625502",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -836,7 +836,7 @@
     },
     {
       "user_id": 621494990383743007,
-      "username": null,
+      "username": "621494990383743007",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -849,7 +849,7 @@
     },
     {
       "user_id": 623012864197787650,
-      "username": null,
+      "username": "623012864197787650",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -862,7 +862,7 @@
     },
     {
       "user_id": 626843404244090930,
-      "username": null,
+      "username": "626843404244090930",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -875,7 +875,7 @@
     },
     {
       "user_id": 636570979677503488,
-      "username": null,
+      "username": "636570979677503488",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -888,7 +888,7 @@
     },
     {
       "user_id": 640802095670231051,
-      "username": null,
+      "username": "640802095670231051",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -901,7 +901,7 @@
     },
     {
       "user_id": 665293461330853890,
-      "username": null,
+      "username": "665293461330853890",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -914,7 +914,7 @@
     },
     {
       "user_id": 690502976317685781,
-      "username": null,
+      "username": "690502976317685781",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -927,7 +927,7 @@
     },
     {
       "user_id": 701959211663491143,
-      "username": null,
+      "username": "701959211663491143",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -940,7 +940,7 @@
     },
     {
       "user_id": 706938940992782458,
-      "username": null,
+      "username": "706938940992782458",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -953,7 +953,7 @@
     },
     {
       "user_id": 710902430430396487,
-      "username": null,
+      "username": "710902430430396487",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -966,7 +966,7 @@
     },
     {
       "user_id": 710967150084489261,
-      "username": null,
+      "username": "710967150084489261",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -979,7 +979,7 @@
     },
     {
       "user_id": 711835725104152648,
-      "username": null,
+      "username": "711835725104152648",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -992,7 +992,7 @@
     },
     {
       "user_id": 712090446276460624,
-      "username": null,
+      "username": "712090446276460624",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1005,7 +1005,7 @@
     },
     {
       "user_id": 712541242176700416,
-      "username": null,
+      "username": "712541242176700416",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1018,7 +1018,7 @@
     },
     {
       "user_id": 712766096838623303,
-      "username": null,
+      "username": "712766096838623303",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1031,7 +1031,7 @@
     },
     {
       "user_id": 718651748142809129,
-      "username": null,
+      "username": "718651748142809129",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1044,7 +1044,7 @@
     },
     {
       "user_id": 728820632489427067,
-      "username": null,
+      "username": "728820632489427067",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1057,7 +1057,7 @@
     },
     {
       "user_id": 742147855891824790,
-      "username": null,
+      "username": "742147855891824790",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1070,7 +1070,7 @@
     },
     {
       "user_id": 759847607367106610,
-      "username": null,
+      "username": "759847607367106610",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1083,7 +1083,7 @@
     },
     {
       "user_id": 766807063946068019,
-      "username": null,
+      "username": "766807063946068019",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1096,7 +1096,7 @@
     },
     {
       "user_id": 777991264942948353,
-      "username": null,
+      "username": "777991264942948353",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1109,7 +1109,7 @@
     },
     {
       "user_id": 783780025194512384,
-      "username": null,
+      "username": "783780025194512384",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1122,7 +1122,7 @@
     },
     {
       "user_id": 794854019750297611,
-      "username": null,
+      "username": "794854019750297611",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1135,7 +1135,7 @@
     },
     {
       "user_id": 800252445866328095,
-      "username": null,
+      "username": "800252445866328095",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1148,7 +1148,7 @@
     },
     {
       "user_id": 803769068200394793,
-      "username": null,
+      "username": "803769068200394793",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1161,7 +1161,7 @@
     },
     {
       "user_id": 806025931218485319,
-      "username": null,
+      "username": "806025931218485319",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1174,7 +1174,7 @@
     },
     {
       "user_id": 811656772280123432,
-      "username": null,
+      "username": "811656772280123432",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1187,7 +1187,7 @@
     },
     {
       "user_id": 813242119459962932,
-      "username": null,
+      "username": "813242119459962932",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1200,7 +1200,7 @@
     },
     {
       "user_id": 819353945578405929,
-      "username": null,
+      "username": "819353945578405929",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1213,7 +1213,7 @@
     },
     {
       "user_id": 821811794195644466,
-      "username": null,
+      "username": "821811794195644466",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1226,7 +1226,7 @@
     },
     {
       "user_id": 823310666194092083,
-      "username": null,
+      "username": "823310666194092083",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1239,7 +1239,7 @@
     },
     {
       "user_id": 825873476870340648,
-      "username": null,
+      "username": "825873476870340648",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1252,7 +1252,7 @@
     },
     {
       "user_id": 826759902763941909,
-      "username": null,
+      "username": "826759902763941909",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1265,7 +1265,7 @@
     },
     {
       "user_id": 831905577536847932,
-      "username": null,
+      "username": "831905577536847932",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1278,7 +1278,7 @@
     },
     {
       "user_id": 840317039569797120,
-      "username": null,
+      "username": "840317039569797120",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1291,7 +1291,7 @@
     },
     {
       "user_id": 848622321534763028,
-      "username": null,
+      "username": "848622321534763028",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1304,7 +1304,7 @@
     },
     {
       "user_id": 854191237267456000,
-      "username": null,
+      "username": "854191237267456000",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1317,7 +1317,7 @@
     },
     {
       "user_id": 858872335205138442,
-      "username": null,
+      "username": "858872335205138442",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1330,7 +1330,7 @@
     },
     {
       "user_id": 866803039715983411,
-      "username": null,
+      "username": "866803039715983411",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1343,7 +1343,7 @@
     },
     {
       "user_id": 870999241550598155,
-      "username": null,
+      "username": "870999241550598155",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1356,7 +1356,7 @@
     },
     {
       "user_id": 904412143426879509,
-      "username": null,
+      "username": "904412143426879509",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1369,7 +1369,7 @@
     },
     {
       "user_id": 936070187139076117,
-      "username": null,
+      "username": "936070187139076117",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1382,7 +1382,7 @@
     },
     {
       "user_id": 966086373910118471,
-      "username": null,
+      "username": "966086373910118471",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1395,7 +1395,7 @@
     },
     {
       "user_id": 971059567821746226,
-      "username": null,
+      "username": "971059567821746226",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1408,7 +1408,7 @@
     },
     {
       "user_id": 978219787450716160,
-      "username": null,
+      "username": "978219787450716160",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1421,7 +1421,7 @@
     },
     {
       "user_id": 978554821101625405,
-      "username": null,
+      "username": "978554821101625405",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1434,7 +1434,7 @@
     },
     {
       "user_id": 1005407719995490306,
-      "username": null,
+      "username": "1005407719995490306",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1447,7 +1447,7 @@
     },
     {
       "user_id": 1013608349700460564,
-      "username": null,
+      "username": "1013608349700460564",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1460,7 +1460,7 @@
     },
     {
       "user_id": 1016310245057900545,
-      "username": null,
+      "username": "1016310245057900545",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1473,7 +1473,7 @@
     },
     {
       "user_id": 1033441139908415569,
-      "username": null,
+      "username": "1033441139908415569",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1486,7 +1486,7 @@
     },
     {
       "user_id": 1044725430185365514,
-      "username": null,
+      "username": "1044725430185365514",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1499,7 +1499,7 @@
     },
     {
       "user_id": 1052400599074869341,
-      "username": null,
+      "username": "1052400599074869341",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1512,7 +1512,7 @@
     },
     {
       "user_id": 1060255663588126753,
-      "username": null,
+      "username": "1060255663588126753",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1525,7 +1525,7 @@
     },
     {
       "user_id": 1066840940100202677,
-      "username": null,
+      "username": "1066840940100202677",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1538,7 +1538,7 @@
     },
     {
       "user_id": 1070127896250826814,
-      "username": null,
+      "username": "1070127896250826814",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1551,7 +1551,7 @@
     },
     {
       "user_id": 1082387672401723483,
-      "username": null,
+      "username": "1082387672401723483",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1564,7 +1564,7 @@
     },
     {
       "user_id": 1124036219936968815,
-      "username": null,
+      "username": "1124036219936968815",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1577,7 +1577,7 @@
     },
     {
       "user_id": 1180553578801270784,
-      "username": null,
+      "username": "1180553578801270784",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1590,7 +1590,7 @@
     },
     {
       "user_id": 1190432563748151400,
-      "username": null,
+      "username": "1190432563748151400",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1603,7 +1603,7 @@
     },
     {
       "user_id": 1197453657180999784,
-      "username": null,
+      "username": "1197453657180999784",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1616,7 +1616,7 @@
     },
     {
       "user_id": 1220534677232943255,
-      "username": null,
+      "username": "1220534677232943255",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1629,7 +1629,7 @@
     },
     {
       "user_id": 1244736923411415080,
-      "username": null,
+      "username": "1244736923411415080",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1642,7 +1642,7 @@
     },
     {
       "user_id": 1259073080030920738,
-      "username": null,
+      "username": "1259073080030920738",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1655,7 +1655,7 @@
     },
     {
       "user_id": 1266548226798911560,
-      "username": null,
+      "username": "1266548226798911560",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1668,7 +1668,7 @@
     },
     {
       "user_id": 1284109217355010061,
-      "username": null,
+      "username": "1284109217355010061",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1681,7 +1681,7 @@
     },
     {
       "user_id": 1287352750836813905,
-      "username": null,
+      "username": "1287352750836813905",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1694,7 +1694,7 @@
     },
     {
       "user_id": 1313194388549271679,
-      "username": null,
+      "username": "1313194388549271679",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1707,7 +1707,7 @@
     },
     {
       "user_id": 1341427887437254686,
-      "username": null,
+      "username": "1341427887437254686",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1720,7 +1720,7 @@
     },
     {
       "user_id": 1362029661122596957,
-      "username": null,
+      "username": "1362029661122596957",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1733,7 +1733,7 @@
     },
     {
       "user_id": 1362927022527090818,
-      "username": null,
+      "username": "1362927022527090818",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1746,7 +1746,7 @@
     },
     {
       "user_id": 1394467704185946342,
-      "username": null,
+      "username": "1394467704185946342",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1759,7 +1759,7 @@
     },
     {
       "user_id": 1402280697422549084,
-      "username": null,
+      "username": "1402280697422549084",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1772,7 +1772,7 @@
     },
     {
       "user_id": 1402974291678466099,
-      "username": null,
+      "username": "1402974291678466099",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1785,7 +1785,7 @@
     },
     {
       "user_id": 1443830778570997760,
-      "username": null,
+      "username": "1443830778570997760",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1798,7 +1798,7 @@
     },
     {
       "user_id": 1452653021409579020,
-      "username": null,
+      "username": "1452653021409579020",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1811,7 +1811,7 @@
     },
     {
       "user_id": 1464285655050752033,
-      "username": null,
+      "username": "1464285655050752033",
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1824,7 +1824,7 @@
     },
     {
       "user_id": 366504446559256587,
-      "username": null,
+      "username": "366504446559256587",
       "class": "C",
       "rating": 996,
       "wins": 2,
@@ -1837,7 +1837,7 @@
     },
     {
       "user_id": 835786495112904735,
-      "username": null,
+      "username": "835786495112904735",
       "class": "C",
       "rating": 984,
       "wins": 6,
@@ -1850,7 +1850,7 @@
     },
     {
       "user_id": 239037390868447232,
-      "username": null,
+      "username": "239037390868447232",
       "class": "C",
       "rating": 981,
       "wins": 0,
@@ -1863,7 +1863,7 @@
     },
     {
       "user_id": 236305617067704321,
-      "username": null,
+      "username": "236305617067704321",
       "class": "C",
       "rating": 980,
       "wins": 0,
@@ -1876,7 +1876,7 @@
     },
     {
       "user_id": 757315409044308028,
-      "username": null,
+      "username": "757315409044308028",
       "class": "C",
       "rating": 980,
       "wins": 0,
@@ -1889,7 +1889,7 @@
     },
     {
       "user_id": 1120254277324128326,
-      "username": null,
+      "username": "1120254277324128326",
       "class": "C",
       "rating": 978,
       "wins": 0,
@@ -1902,7 +1902,7 @@
     },
     {
       "user_id": 607037315461808139,
-      "username": null,
+      "username": "607037315461808139",
       "class": "C",
       "rating": 975,
       "wins": 0,
@@ -1915,7 +1915,7 @@
     },
     {
       "user_id": 364468805369462784,
-      "username": null,
+      "username": "364468805369462784",
       "class": "C-",
       "rating": 957,
       "wins": 9,
@@ -1928,7 +1928,7 @@
     },
     {
       "user_id": 260737732957962257,
-      "username": null,
+      "username": "260737732957962257",
       "class": "C-",
       "rating": 948,
       "wins": 0,
@@ -1941,7 +1941,7 @@
     },
     {
       "user_id": 113743997045833732,
-      "username": null,
+      "username": "113743997045833732",
       "class": "C-",
       "rating": 945,
       "wins": 0,
@@ -1954,7 +1954,7 @@
     },
     {
       "user_id": 1213889235720085544,
-      "username": null,
+      "username": "1213889235720085544",
       "class": "C-",
       "rating": 866,
       "wins": 2,
@@ -1965,5 +1965,6 @@
       "dodges": 0,
       "last_match": "2026-01-25 21:11:04"
     }
-  ]
+  ],
+  "fetch_discord": false
 }
