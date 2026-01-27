@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-27 02:37:16 UTC",
+  "generated_at": "2026-01-27 03:01:53 UTC",
   "count": 151,
   "players": [
     {
@@ -13,7 +13,7 @@
       "win_streak": 6,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": "2026-01-25 22:20:39"
+      "last_match": "2026-01-25T22:20:39.304954+00:00"
     },
     {
       "user_id": 564540700876603392,
@@ -26,7 +26,7 @@
       "win_streak": 0,
       "loss_streak": 1,
       "dodges": 0,
-      "last_match": "2026-01-25 22:20:39"
+      "last_match": "2026-01-25T22:20:39.304954+00:00"
     },
     {
       "user_id": 522996129399439360,
@@ -39,7 +39,7 @@
       "win_streak": 4,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": "2026-01-25 16:39:12"
+      "last_match": "2026-01-25T16:39:12.131314+00:00"
     },
     {
       "user_id": 841744096287784960,
@@ -52,7 +52,7 @@
       "win_streak": 0,
       "loss_streak": 1,
       "dodges": 0,
-      "last_match": "2026-01-25 20:44:39"
+      "last_match": "2026-01-25T20:44:39.394476+00:00"
     },
     {
       "user_id": 1193403086081896609,
@@ -65,7 +65,7 @@
       "win_streak": 2,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": "2026-01-26 18:48:56"
+      "last_match": "2026-01-26T18:48:56.234518+00:00"
     },
     {
       "user_id": 384408474190348288,
@@ -78,7 +78,7 @@
       "win_streak": 3,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": "2026-01-25 00:40:33"
+      "last_match": "2026-01-25T00:40:33.993462+00:00"
     },
     {
       "user_id": 238762226297733131,
@@ -91,7 +91,7 @@
       "win_streak": 0,
       "loss_streak": 2,
       "dodges": 0,
-      "last_match": "2026-01-25 15:23:15"
+      "last_match": "2026-01-25T15:23:15.266840+00:00"
     },
     {
       "user_id": 435478413860536322,
@@ -104,7 +104,7 @@
       "win_streak": 1,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": "2026-01-22 18:24:45"
+      "last_match": "2026-01-22T18:24:45.878419+00:00"
     },
     {
       "user_id": 578681828639244298,
@@ -117,7 +117,7 @@
       "win_streak": 1,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": "2026-01-25 22:13:55"
+      "last_match": "2026-01-25T22:13:55.602537+00:00"
     },
     {
       "user_id": 395528551928954881,
@@ -130,20 +130,7 @@
       "win_streak": 0,
       "loss_streak": 2,
       "dodges": 0,
-      "last_match": "2026-01-25 00:40:33"
-    },
-    {
-      "user_id": 717980333487685667,
-      "username": "doof88",
-      "class": "C+",
-      "rating": 1000,
-      "wins": 4,
-      "losses": 4,
-      "games": 8,
-      "win_streak": 0,
-      "loss_streak": 4,
-      "dodges": 1,
-      "last_match": "2026-01-26 18:48:56"
+      "last_match": "2026-01-25T00:40:33.993462+00:00"
     },
     {
       "user_id": 161509188214718464,
@@ -1030,6 +1017,19 @@
       "last_match": null
     },
     {
+      "user_id": 717980333487685667,
+      "username": "doof88",
+      "class": "C+",
+      "rating": 1000,
+      "wins": 4,
+      "losses": 4,
+      "games": 8,
+      "win_streak": 0,
+      "loss_streak": 4,
+      "dodges": 1,
+      "last_match": "2026-01-26T18:48:56.234518+00:00"
+    },
+    {
       "user_id": 718651748142809129,
       "username": "ulostagain",
       "class": "C",
@@ -1833,7 +1833,7 @@
       "win_streak": 1,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": "2026-01-26 17:21:32"
+      "last_match": "2026-01-26T17:21:32.593201+00:00"
     },
     {
       "user_id": 835786495112904735,
@@ -1846,7 +1846,7 @@
       "win_streak": 0,
       "loss_streak": 1,
       "dodges": 0,
-      "last_match": "2026-01-25 22:13:55"
+      "last_match": "2026-01-25T22:13:55.602537+00:00"
     },
     {
       "user_id": 239037390868447232,
@@ -1859,7 +1859,7 @@
       "win_streak": 0,
       "loss_streak": 1,
       "dodges": 0,
-      "last_match": "2026-01-21 19:35:13"
+      "last_match": "2026-01-21T19:35:13.006374+00:00"
     },
     {
       "user_id": 236305617067704321,
@@ -1872,7 +1872,7 @@
       "win_streak": 0,
       "loss_streak": 1,
       "dodges": 0,
-      "last_match": "2026-01-22 02:01:05"
+      "last_match": "2026-01-22T02:01:05.730478+00:00"
     },
     {
       "user_id": 757315409044308028,
@@ -1885,7 +1885,7 @@
       "win_streak": 0,
       "loss_streak": 1,
       "dodges": 0,
-      "last_match": "2026-01-22 18:24:45"
+      "last_match": "2026-01-22T18:24:45.878419+00:00"
     },
     {
       "user_id": 1120254277324128326,
@@ -1898,7 +1898,7 @@
       "win_streak": 0,
       "loss_streak": 1,
       "dodges": 0,
-      "last_match": "2026-01-24 13:48:44"
+      "last_match": "2026-01-24T13:48:44.853850+00:00"
     },
     {
       "user_id": 607037315461808139,
@@ -1911,7 +1911,7 @@
       "win_streak": 0,
       "loss_streak": 1,
       "dodges": 0,
-      "last_match": "2026-01-22 01:28:14"
+      "last_match": "2026-01-22T01:28:14.854317+00:00"
     },
     {
       "user_id": 364468805369462784,
@@ -1924,7 +1924,7 @@
       "win_streak": 0,
       "loss_streak": 1,
       "dodges": 0,
-      "last_match": "2026-01-26 17:21:32"
+      "last_match": "2026-01-26T17:21:32.593201+00:00"
     },
     {
       "user_id": 260737732957962257,
@@ -1937,7 +1937,7 @@
       "win_streak": 0,
       "loss_streak": 3,
       "dodges": 0,
-      "last_match": "2026-01-23 13:46:23"
+      "last_match": "2026-01-23T13:46:23.082107+00:00"
     },
     {
       "user_id": 113743997045833732,
@@ -1950,7 +1950,7 @@
       "win_streak": 0,
       "loss_streak": 3,
       "dodges": 0,
-      "last_match": "2026-01-24 23:32:49"
+      "last_match": "2026-01-24T23:32:49.230552+00:00"
     },
     {
       "user_id": 1213889235720085544,
@@ -1963,11 +1963,7 @@
       "win_streak": 0,
       "loss_streak": 2,
       "dodges": 0,
-      "last_match": "2026-01-25 21:11:04"
+      "last_match": "2026-01-25T21:11:04.880941+00:00"
     }
-  ],
-  "fetch_discord": true,
-  "fetch_limit": 25,
-  "missing_names": 0,
-  "fetched_this_run": 0
+  ]
 }
