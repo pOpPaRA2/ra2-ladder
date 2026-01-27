@@ -1,11 +1,13 @@
 {
-  "generated_at": "2026-01-26 15:33:48 UTC",
+  "generated_at": "2026-01-27 00:11:22 UTC",
   "count": 151,
   "players": [
     {
       "user_id": 272775776074465281,
-      "display_name": "root",
-      "username": "root",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "B+",
       "rating": 1134,
       "wins": 6,
@@ -18,8 +20,10 @@
     },
     {
       "user_id": 564540700876603392,
-      "display_name": "guy",
-      "username": "guy",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "B+",
       "rating": 1093,
       "wins": 7,
@@ -32,8 +36,10 @@
     },
     {
       "user_id": 522996129399439360,
-      "display_name": "Bulldog",
-      "username": "Bulldog",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "B-",
       "rating": 1086,
       "wins": 4,
@@ -46,8 +52,10 @@
     },
     {
       "user_id": 841744096287784960,
-      "display_name": "Johnny",
-      "username": "Johnny",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "B-",
       "rating": 1078,
       "wins": 6,
@@ -59,9 +67,27 @@
       "last_match": "2026-01-25 20:44:39"
     },
     {
+      "user_id": 1193403086081896609,
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
+      "class": "C+",
+      "rating": 1055,
+      "wins": 5,
+      "losses": 3,
+      "games": 8,
+      "win_streak": 2,
+      "loss_streak": 0,
+      "dodges": 0,
+      "last_match": "2026-01-26 18:48:56"
+    },
+    {
       "user_id": 384408474190348288,
-      "display_name": "pOpPaRA2",
-      "username": "pOpPaRA2",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C+",
       "rating": 1051,
       "wins": 3,
@@ -73,23 +99,11 @@
       "last_match": "2026-01-25 00:40:33"
     },
     {
-      "user_id": 1193403086081896609,
-      "display_name": "Lappen",
-      "username": "Lappen",
-      "class": "C+",
-      "rating": 1036,
-      "wins": 4,
-      "losses": 3,
-      "games": 7,
-      "win_streak": 1,
-      "loss_streak": 0,
-      "dodges": 0,
-      "last_match": "2026-01-25 17:21:03"
-    },
-    {
       "user_id": 238762226297733131,
-      "display_name": "lazlo",
-      "username": "lazlo",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C+",
       "rating": 1020,
       "wins": 3,
@@ -102,8 +116,10 @@
     },
     {
       "user_id": 435478413860536322,
-      "display_name": "HighLight",
-      "username": "HighLight",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1020,
       "wins": 1,
@@ -116,8 +132,10 @@
     },
     {
       "user_id": 578681828639244298,
-      "display_name": "Smoke88",
-      "username": "Smoke88",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1020,
       "wins": 1,
@@ -129,23 +147,11 @@
       "last_match": "2026-01-25 22:13:55"
     },
     {
-      "user_id": 717980333487685667,
-      "display_name": "Doof88",
-      "username": "Doof88",
-      "class": "B-",
-      "rating": 1019,
-      "wins": 4,
-      "losses": 3,
-      "games": 7,
-      "win_streak": 0,
-      "loss_streak": 3,
-      "dodges": 0,
-      "last_match": "2026-01-24 23:03:35"
-    },
-    {
       "user_id": 395528551928954881,
-      "display_name": "Niek",
-      "username": "Niek",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1008,
       "wins": 4,
@@ -157,9 +163,27 @@
       "last_match": "2026-01-25 00:40:33"
     },
     {
+      "user_id": 717980333487685667,
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
+      "class": "C+",
+      "rating": 1000,
+      "wins": 4,
+      "losses": 4,
+      "games": 8,
+      "win_streak": 0,
+      "loss_streak": 4,
+      "dodges": 0,
+      "last_match": "2026-01-26 18:48:56"
+    },
+    {
       "user_id": 161509188214718464,
-      "display_name": "Marcus",
-      "username": "Marcus",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -172,8 +196,10 @@
     },
     {
       "user_id": 190406949743886336,
-      "display_name": "alexeyk",
-      "username": "alexeyk",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -186,8 +212,10 @@
     },
     {
       "user_id": 195645517324222464,
-      "display_name": "Alien51",
-      "username": "Alien51",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -200,8 +228,10 @@
     },
     {
       "user_id": 212233231129509899,
-      "display_name": "Ti_Ti_Ta",
-      "username": "Ti_Ti_Ta",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -214,8 +244,10 @@
     },
     {
       "user_id": 216028795919007745,
-      "display_name": "NightShade",
-      "username": "NightShade",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -228,8 +260,10 @@
     },
     {
       "user_id": 217727886487060480,
-      "display_name": "florida",
-      "username": "florida",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -242,8 +276,10 @@
     },
     {
       "user_id": 228537644844449793,
-      "display_name": "Millzeh",
-      "username": "Millzeh",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -256,8 +292,10 @@
     },
     {
       "user_id": 238425303246962689,
-      "display_name": "naWbulon",
-      "username": "naWbulon",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -270,8 +308,10 @@
     },
     {
       "user_id": 243456756360019968,
-      "display_name": "Sai",
-      "username": "Sai",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -284,8 +324,10 @@
     },
     {
       "user_id": 261242531965173760,
-      "display_name": "Lunak",
-      "username": "Lunak",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -298,8 +340,10 @@
     },
     {
       "user_id": 265345532480847872,
-      "display_name": "mindwar1326",
-      "username": "mindwar1326",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -312,8 +356,10 @@
     },
     {
       "user_id": 272191478833348608,
-      "display_name": "chris05",
-      "username": "chris05",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -326,8 +372,10 @@
     },
     {
       "user_id": 272697838750793730,
-      "display_name": "KainKiller1993",
-      "username": "KainKiller1993",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -340,8 +388,10 @@
     },
     {
       "user_id": 272832676937990145,
-      "display_name": "3xp4ndd",
-      "username": "3xp4ndd",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -354,8 +404,10 @@
     },
     {
       "user_id": 276980205984415745,
-      "display_name": "Edd",
-      "username": "Edd",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -368,8 +420,10 @@
     },
     {
       "user_id": 279702886223446016,
-      "display_name": "[NL]Yukine/TerrorWGD",
-      "username": "[NL]Yukine/TerrorWGD",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -382,8 +436,10 @@
     },
     {
       "user_id": 292019553204961282,
-      "display_name": "SoVsOrDiE",
-      "username": "SoVsOrDiE",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -396,8 +452,10 @@
     },
     {
       "user_id": 293175003736834058,
-      "display_name": "Ryuzerox",
-      "username": "Ryuzerox",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -410,8 +468,10 @@
     },
     {
       "user_id": 308301894626050049,
-      "display_name": "TheNecrons",
-      "username": "TheNecrons",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -424,8 +484,10 @@
     },
     {
       "user_id": 316947169993293825,
-      "display_name": "OP Streamer Mj",
-      "username": "OP Streamer Mj",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -438,8 +500,10 @@
     },
     {
       "user_id": 317591106248245261,
-      "display_name": "Dest",
-      "username": "Dest",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -452,8 +516,10 @@
     },
     {
       "user_id": 334929695709724673,
-      "display_name": "JESER",
-      "username": "JESER",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -466,8 +532,10 @@
     },
     {
       "user_id": 344569923047129091,
-      "display_name": "ShortyModzzz",
-      "username": "ShortyModzzz",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -480,8 +548,10 @@
     },
     {
       "user_id": 359137879622156288,
-      "display_name": "Lucifer",
-      "username": "Lucifer",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -494,8 +564,10 @@
     },
     {
       "user_id": 379249571601317889,
-      "display_name": "[EG]Yousri",
-      "username": "[EG]Yousri",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -508,8 +580,10 @@
     },
     {
       "user_id": 391732751457320981,
-      "display_name": "RideorDie _Ra2",
-      "username": "RideorDie _Ra2",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -522,8 +596,10 @@
     },
     {
       "user_id": 395552015377235989,
-      "display_name": "HCKiD",
-      "username": "HCKiD",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -536,8 +612,10 @@
     },
     {
       "user_id": 395690923885068288,
-      "display_name": "enj0y",
-      "username": "enj0y",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -550,8 +628,10 @@
     },
     {
       "user_id": 399408693302788107,
-      "display_name": "Gino",
-      "username": "Gino",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -564,8 +644,10 @@
     },
     {
       "user_id": 402319806402920469,
-      "display_name": "Ankarar",
-      "username": "Ankarar",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -578,8 +660,10 @@
     },
     {
       "user_id": 407592890756235264,
-      "display_name": "Top7Dogoz",
-      "username": "Top7Dogoz",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -592,8 +676,10 @@
     },
     {
       "user_id": 408734659032383499,
-      "display_name": "DistantQ",
-      "username": "DistantQ",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -606,8 +692,10 @@
     },
     {
       "user_id": 412309022218125314,
-      "display_name": "jaredd",
-      "username": "jaredd",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -620,8 +708,10 @@
     },
     {
       "user_id": 427187616195149835,
-      "display_name": "[FC]Matt",
-      "username": "[FC]Matt",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -634,8 +724,10 @@
     },
     {
       "user_id": 428217648522723338,
-      "display_name": "Ric",
-      "username": "Ric",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -648,8 +740,10 @@
     },
     {
       "user_id": 432584071307067394,
-      "display_name": "SaschaPatrickMitischka",
-      "username": "SaschaPatrickMitischka",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -662,8 +756,10 @@
     },
     {
       "user_id": 440587592115683331,
-      "display_name": "SLoWLy",
-      "username": "SLoWLy",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -676,8 +772,10 @@
     },
     {
       "user_id": 453575389307207690,
-      "display_name": "Wonna",
-      "username": "Wonna",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -690,8 +788,10 @@
     },
     {
       "user_id": 457514711848714241,
-      "display_name": "[\u0280\u1d1c]\u1d18\u1d0f\u029f\u028f\u1d07",
-      "username": "[\u0280\u1d1c]\u1d18\u1d0f\u029f\u028f\u1d07",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -704,8 +804,10 @@
     },
     {
       "user_id": 460346056044183572,
-      "display_name": "Zeffy",
-      "username": "Zeffy",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -718,8 +820,10 @@
     },
     {
       "user_id": 464896640545980446,
-      "display_name": "\u201cB\u201d (Gr3nmaf1a)",
-      "username": "\u201cB\u201d (Gr3nmaf1a)",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -732,8 +836,10 @@
     },
     {
       "user_id": 488856385744928790,
-      "display_name": "kyle",
-      "username": "kyle",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -746,8 +852,10 @@
     },
     {
       "user_id": 503483081701851136,
-      "display_name": "General Score Pro",
-      "username": "General Score Pro",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -760,8 +868,10 @@
     },
     {
       "user_id": 516045104000270390,
-      "display_name": "PitiKami",
-      "username": "PitiKami",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -774,8 +884,10 @@
     },
     {
       "user_id": 534060013921108004,
-      "display_name": "[PK]GOLD92",
-      "username": "[PK]GOLD92",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -788,8 +900,10 @@
     },
     {
       "user_id": 543061432497995776,
-      "display_name": "t7",
-      "username": "t7",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -802,8 +916,10 @@
     },
     {
       "user_id": 547730216286421001,
-      "display_name": "Dazzle",
-      "username": "Dazzle",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -816,8 +932,10 @@
     },
     {
       "user_id": 552256786166579203,
-      "display_name": "\u212d\ud835\udd2f\ud835\udd22\ud835\udfe0\ud835\udd30\ud835\udd25\ud835\udd32\ud835\udd2b",
-      "username": "\u212d\ud835\udd2f\ud835\udd22\ud835\udfe0\ud835\udd30\ud835\udd25\ud835\udd32\ud835\udd2b",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -830,8 +948,10 @@
     },
     {
       "user_id": 557375589674123265,
-      "display_name": "Dr.babalu",
-      "username": "Dr.babalu",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -844,8 +964,10 @@
     },
     {
       "user_id": 558121490894028801,
-      "display_name": "GerHaLe",
-      "username": "GerHaLe",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -858,8 +980,10 @@
     },
     {
       "user_id": 560222926423457793,
-      "display_name": "\u30dd\u30eb\u30ce\u30b9\u30bf\u30fc",
-      "username": "\u30dd\u30eb\u30ce\u30b9\u30bf\u30fc",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -872,8 +996,10 @@
     },
     {
       "user_id": 581317496653742085,
-      "display_name": "Sweetz",
-      "username": "Sweetz",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -886,8 +1012,10 @@
     },
     {
       "user_id": 604973302523625502,
-      "display_name": "abdo",
-      "username": "abdo",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -900,8 +1028,10 @@
     },
     {
       "user_id": 621494990383743007,
-      "display_name": "mikethejf",
-      "username": "mikethejf",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -914,8 +1044,10 @@
     },
     {
       "user_id": 623012864197787650,
-      "display_name": "KnowLedge",
-      "username": "KnowLedge",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -928,8 +1060,10 @@
     },
     {
       "user_id": 626843404244090930,
-      "display_name": "db_db(BOT)",
-      "username": "db_db(BOT)",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -942,8 +1076,10 @@
     },
     {
       "user_id": 636570979677503488,
-      "display_name": "Ausvin",
-      "username": "Ausvin",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -956,8 +1092,10 @@
     },
     {
       "user_id": 640802095670231051,
-      "display_name": "epik_gamer_yt",
-      "username": "epik_gamer_yt",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -970,8 +1108,10 @@
     },
     {
       "user_id": 665293461330853890,
-      "display_name": "Thomas",
-      "username": "Thomas",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -984,8 +1124,10 @@
     },
     {
       "user_id": 690502976317685781,
-      "display_name": "WickeDSick",
-      "username": "WickeDSick",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -998,8 +1140,10 @@
     },
     {
       "user_id": 701959211663491143,
-      "display_name": "StonedApe",
-      "username": "StonedApe",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1012,8 +1156,10 @@
     },
     {
       "user_id": 706938940992782458,
-      "display_name": "deadshot",
-      "username": "deadshot",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1026,8 +1172,10 @@
     },
     {
       "user_id": 710902430430396487,
-      "display_name": "nietvantoepassing445",
-      "username": "nietvantoepassing445",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1040,8 +1188,10 @@
     },
     {
       "user_id": 710967150084489261,
-      "display_name": "\ud835\udce2\ud835\udcfd\ud835\udcea\ud835\udcfb\ud835\udcf4",
-      "username": "\ud835\udce2\ud835\udcfd\ud835\udcea\ud835\udcfb\ud835\udcf4",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1054,8 +1204,10 @@
     },
     {
       "user_id": 711835725104152648,
-      "display_name": "[EG]Super",
-      "username": "[EG]Super",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1068,8 +1220,10 @@
     },
     {
       "user_id": 712090446276460624,
-      "display_name": "BernieSandal",
-      "username": "BernieSandal",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1082,8 +1236,10 @@
     },
     {
       "user_id": 712541242176700416,
-      "display_name": "[FC] J.Card",
-      "username": "[FC] J.Card",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1096,8 +1252,10 @@
     },
     {
       "user_id": 712766096838623303,
-      "display_name": "BlackPandas",
-      "username": "BlackPandas",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1110,8 +1268,10 @@
     },
     {
       "user_id": 718651748142809129,
-      "display_name": "Kev.",
-      "username": "Kev.",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1124,8 +1284,10 @@
     },
     {
       "user_id": 728820632489427067,
-      "display_name": "Zedd",
-      "username": "Zedd",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1138,8 +1300,10 @@
     },
     {
       "user_id": 742147855891824790,
-      "display_name": "Piciu",
-      "username": "Piciu",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1152,8 +1316,10 @@
     },
     {
       "user_id": 759847607367106610,
-      "display_name": "Flow",
-      "username": "Flow",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1166,8 +1332,10 @@
     },
     {
       "user_id": 766807063946068019,
-      "display_name": "VincentofMgtow",
-      "username": "VincentofMgtow",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1180,8 +1348,10 @@
     },
     {
       "user_id": 777991264942948353,
-      "display_name": "ERROR_606",
-      "username": "ERROR_606",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1194,8 +1364,10 @@
     },
     {
       "user_id": 783780025194512384,
-      "display_name": "HighX",
-      "username": "HighX",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1208,8 +1380,10 @@
     },
     {
       "user_id": 794854019750297611,
-      "display_name": "TurboZboY",
-      "username": "TurboZboY",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1222,8 +1396,10 @@
     },
     {
       "user_id": 800252445866328095,
-      "display_name": "QinlingPandas",
-      "username": "QinlingPandas",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1236,8 +1412,10 @@
     },
     {
       "user_id": 803769068200394793,
-      "display_name": "nobo",
-      "username": "nobo",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1250,8 +1428,10 @@
     },
     {
       "user_id": 806025931218485319,
-      "display_name": "[Wolf]",
-      "username": "[Wolf]",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1264,8 +1444,10 @@
     },
     {
       "user_id": 811656772280123432,
-      "display_name": "rsnrules",
-      "username": "rsnrules",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1278,8 +1460,10 @@
     },
     {
       "user_id": 813242119459962932,
-      "display_name": "FunkyMonky",
-      "username": "FunkyMonky",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1292,8 +1476,10 @@
     },
     {
       "user_id": 819353945578405929,
-      "display_name": "lloydips96",
-      "username": "lloydips96",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1306,8 +1492,10 @@
     },
     {
       "user_id": 821811794195644466,
-      "display_name": "SCOUT",
-      "username": "SCOUT",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1320,8 +1508,10 @@
     },
     {
       "user_id": 823310666194092083,
-      "display_name": "dayi01",
-      "username": "dayi01",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1334,8 +1524,10 @@
     },
     {
       "user_id": 825873476870340648,
-      "display_name": "Noor Elhossany",
-      "username": "Noor Elhossany",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1348,8 +1540,10 @@
     },
     {
       "user_id": 826759902763941909,
-      "display_name": "gr81",
-      "username": "gr81",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1362,8 +1556,10 @@
     },
     {
       "user_id": 831905577536847932,
-      "display_name": "![M]arT1n0vi^C",
-      "username": "![M]arT1n0vi^C",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1376,8 +1572,10 @@
     },
     {
       "user_id": 840317039569797120,
-      "display_name": "Jaws",
-      "username": "Jaws",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1390,8 +1588,10 @@
     },
     {
       "user_id": 848622321534763028,
-      "display_name": "[49o]",
-      "username": "[49o]",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1404,8 +1604,10 @@
     },
     {
       "user_id": 854191237267456000,
-      "display_name": "No one\"\u064a\u0632\u064a\u062f\" vhagar29",
-      "username": "No one\"\u064a\u0632\u064a\u062f\" vhagar29",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1418,8 +1620,10 @@
     },
     {
       "user_id": 858872335205138442,
-      "display_name": "Kikematamitos",
-      "username": "Kikematamitos",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1432,8 +1636,10 @@
     },
     {
       "user_id": 866803039715983411,
-      "display_name": "zz",
-      "username": "zz",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1446,8 +1652,10 @@
     },
     {
       "user_id": 870999241550598155,
-      "display_name": "JuDgEpowr",
-      "username": "JuDgEpowr",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1460,8 +1668,10 @@
     },
     {
       "user_id": 904412143426879509,
-      "display_name": "creepahz",
-      "username": "creepahz",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1474,8 +1684,10 @@
     },
     {
       "user_id": 936070187139076117,
-      "display_name": "Lov3_Vz_Hat3",
-      "username": "Lov3_Vz_Hat3",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1488,8 +1700,10 @@
     },
     {
       "user_id": 966086373910118471,
-      "display_name": "ownu4ever",
-      "username": "ownu4ever",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1502,8 +1716,10 @@
     },
     {
       "user_id": 971059567821746226,
-      "display_name": "MZiN",
-      "username": "MZiN",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1516,8 +1732,10 @@
     },
     {
       "user_id": 978219787450716160,
-      "display_name": "Subconchus",
-      "username": "Subconchus",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1530,8 +1748,10 @@
     },
     {
       "user_id": 978554821101625405,
-      "display_name": "{PK}GOLD92",
-      "username": "{PK}GOLD92",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1544,8 +1764,10 @@
     },
     {
       "user_id": 1005407719995490306,
-      "display_name": "db_db",
-      "username": "db_db",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1558,8 +1780,10 @@
     },
     {
       "user_id": 1013608349700460564,
-      "display_name": "StonedApe",
-      "username": "StonedApe",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1572,8 +1796,10 @@
     },
     {
       "user_id": 1016310245057900545,
-      "display_name": "[M]Mafia",
-      "username": "[M]Mafia",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1586,8 +1812,10 @@
     },
     {
       "user_id": 1033441139908415569,
-      "display_name": "Ahyeahhh (ra2)",
-      "username": "Ahyeahhh (ra2)",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1600,8 +1828,10 @@
     },
     {
       "user_id": 1044725430185365514,
-      "display_name": "master322",
-      "username": "master322",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1614,8 +1844,10 @@
     },
     {
       "user_id": 1052400599074869341,
-      "display_name": "JS Trager",
-      "username": "JS Trager",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1628,8 +1860,10 @@
     },
     {
       "user_id": 1060255663588126753,
-      "display_name": "Cheese",
-      "username": "Cheese",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1642,8 +1876,10 @@
     },
     {
       "user_id": 1066840940100202677,
-      "display_name": "SniPeR",
-      "username": "SniPeR",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1656,8 +1892,10 @@
     },
     {
       "user_id": 1070127896250826814,
-      "display_name": "Syntax",
-      "username": "Syntax",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1670,8 +1908,10 @@
     },
     {
       "user_id": 1082387672401723483,
-      "display_name": "redbaron",
-      "username": "redbaron",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1684,8 +1924,10 @@
     },
     {
       "user_id": 1124036219936968815,
-      "display_name": "MindFck",
-      "username": "MindFck",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1698,8 +1940,10 @@
     },
     {
       "user_id": 1180553578801270784,
-      "display_name": "Ossama",
-      "username": "Ossama",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1712,8 +1956,10 @@
     },
     {
       "user_id": 1190432563748151400,
-      "display_name": "mikemaybe",
-      "username": "mikemaybe",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1726,8 +1972,10 @@
     },
     {
       "user_id": 1197453657180999784,
-      "display_name": "ENGI",
-      "username": "ENGI",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1740,8 +1988,10 @@
     },
     {
       "user_id": 1220534677232943255,
-      "display_name": "Caleb Kenobi",
-      "username": "Caleb Kenobi",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1754,8 +2004,10 @@
     },
     {
       "user_id": 1244736923411415080,
-      "display_name": "Him-Othy",
-      "username": "Him-Othy",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1768,8 +2020,10 @@
     },
     {
       "user_id": 1259073080030920738,
-      "display_name": "vivacious_kiwi_47457",
-      "username": "vivacious_kiwi_47457",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1782,8 +2036,10 @@
     },
     {
       "user_id": 1266548226798911560,
-      "display_name": "Chris",
-      "username": "Chris",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1796,8 +2052,10 @@
     },
     {
       "user_id": 1284109217355010061,
-      "display_name": "JustlVle",
-      "username": "JustlVle",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1810,8 +2068,10 @@
     },
     {
       "user_id": 1287352750836813905,
-      "display_name": "Lud0wig",
-      "username": "Lud0wig",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1824,8 +2084,10 @@
     },
     {
       "user_id": 1313194388549271679,
-      "display_name": "Alex19",
-      "username": "Alex19",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1838,8 +2100,10 @@
     },
     {
       "user_id": 1341427887437254686,
-      "display_name": "Josh",
-      "username": "Josh",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1852,8 +2116,10 @@
     },
     {
       "user_id": 1362029661122596957,
-      "display_name": "YNWASully",
-      "username": "YNWASully",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1866,8 +2132,10 @@
     },
     {
       "user_id": 1362927022527090818,
-      "display_name": "SuguS",
-      "username": "SuguS",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1880,8 +2148,10 @@
     },
     {
       "user_id": 1394467704185946342,
-      "display_name": "Kocabas",
-      "username": "Kocabas",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1894,8 +2164,10 @@
     },
     {
       "user_id": 1402280697422549084,
-      "display_name": "Hunterx",
-      "username": "Hunterx",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1908,8 +2180,10 @@
     },
     {
       "user_id": 1402974291678466099,
-      "display_name": "Prospering",
-      "username": "Prospering",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1922,8 +2196,10 @@
     },
     {
       "user_id": 1443830778570997760,
-      "display_name": "Wendy Arnold",
-      "username": "Wendy Arnold",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1936,8 +2212,10 @@
     },
     {
       "user_id": 1452653021409579020,
-      "display_name": "YuriPrimeX",
-      "username": "YuriPrimeX",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1950,8 +2228,10 @@
     },
     {
       "user_id": 1464285655050752033,
-      "display_name": "65456",
-      "username": "65456",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 1000,
       "wins": 0,
@@ -1963,9 +2243,27 @@
       "last_match": null
     },
     {
+      "user_id": 366504446559256587,
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
+      "class": "C",
+      "rating": 996,
+      "wins": 2,
+      "losses": 2,
+      "games": 4,
+      "win_streak": 1,
+      "loss_streak": 0,
+      "dodges": 0,
+      "last_match": "2026-01-26 17:21:32"
+    },
+    {
       "user_id": 835786495112904735,
-      "display_name": "CodSetR",
-      "username": "CodSetR",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 984,
       "wins": 6,
@@ -1978,8 +2276,10 @@
     },
     {
       "user_id": 239037390868447232,
-      "display_name": "\u00d6yre",
-      "username": "\u00d6yre",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 981,
       "wins": 0,
@@ -1992,8 +2292,10 @@
     },
     {
       "user_id": 236305617067704321,
-      "display_name": "Rambo",
-      "username": "Rambo",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 980,
       "wins": 0,
@@ -2006,8 +2308,10 @@
     },
     {
       "user_id": 757315409044308028,
-      "display_name": "Realest",
-      "username": "Realest",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 980,
       "wins": 0,
@@ -2020,8 +2324,10 @@
     },
     {
       "user_id": 1120254277324128326,
-      "display_name": "Zarrar",
-      "username": "Zarrar",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 978,
       "wins": 0,
@@ -2033,23 +2339,11 @@
       "last_match": "2026-01-24 13:48:44"
     },
     {
-      "user_id": 366504446559256587,
-      "display_name": "Milk",
-      "username": "Milk",
-      "class": "C",
-      "rating": 976,
-      "wins": 1,
-      "losses": 2,
-      "games": 3,
-      "win_streak": 0,
-      "loss_streak": 2,
-      "dodges": 0,
-      "last_match": "2026-01-25 17:48:27"
-    },
-    {
       "user_id": 607037315461808139,
-      "display_name": "Trailblazer",
-      "username": "Trailblazer",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C",
       "rating": 975,
       "wins": 0,
@@ -2062,22 +2356,26 @@
     },
     {
       "user_id": 364468805369462784,
-      "display_name": "Mr Rat",
-      "username": "Mr Rat",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C-",
-      "rating": 969,
+      "rating": 957,
       "wins": 9,
-      "losses": 12,
-      "games": 21,
-      "win_streak": 1,
-      "loss_streak": 0,
+      "losses": 13,
+      "games": 22,
+      "win_streak": 0,
+      "loss_streak": 1,
       "dodges": 0,
-      "last_match": "2026-01-25 17:48:27"
+      "last_match": "2026-01-26 17:21:32"
     },
     {
       "user_id": 260737732957962257,
-      "display_name": "Shamou",
-      "username": "Shamou",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C-",
       "rating": 948,
       "wins": 0,
@@ -2090,8 +2388,10 @@
     },
     {
       "user_id": 113743997045833732,
-      "display_name": "mindgamex",
-      "username": "mindgamex",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C-",
       "rating": 945,
       "wins": 0,
@@ -2104,8 +2404,10 @@
     },
     {
       "user_id": 1213889235720085544,
-      "display_name": "YNWA Sully",
-      "username": "YNWA Sully",
+      "username": {
+        "name": null,
+        "ts": 1769410093
+      },
       "class": "C-",
       "rating": 866,
       "wins": 2,
