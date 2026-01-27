@@ -16,7 +16,7 @@ function hideError(){
 function bust(url){
   const sep = url.includes("?") ? "&" : "?";
   return `${url}${sep}v=${Date.now()}`;
-}?v=${Date.now()}`; }
+
 
 function renderTable(players){
   lbTable.innerHTML = `
@@ -39,6 +39,7 @@ function renderTable(players){
 async function load(){
   try{
     const res = await fetch(bust("./leaderboard.json"), { cache:"no-store" });
+    if(!res.ok){ throw new Error(`HTTP ${res.status} ${res.statusText}`); }
     const data = await res.json();
 
     const err = validateLeaderboard(data);
@@ -51,8 +52,8 @@ async function load(){
 
   }catch(e){
     console.error(e);
-    showError("Failed to load ./leaderboard.json (missing, invalid JSON, or wrong path).");
-}
+    showError("Failed to load ./leaderboard.json (missing, invalid JSON, wrong path, or network error).");
+  }
 }
 
 load();
