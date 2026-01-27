@@ -16,7 +16,7 @@ except ModuleNotFoundError:
     pass  # dotenv not installed; assume env vars already set
 
 DB_PATH = os.path.join(BOT_FOLDER, "ladder.db")
-OUT_DIR = os.path.join(BOT_FOLDER, "ladder_site", "site")
+OUT_DIR = os.path.join(BOT_FOLDER, "ladder_site", "docs")
 OUT_JSON = os.path.join(OUT_DIR, "leaderboard.json")
 
 # ---- DISCORD SETTINGS ----
@@ -88,7 +88,12 @@ def _discord_get_json(url: str) -> dict | None:
 def _fetch_username(user_id: int, cache: dict) -> str | None:
     key = str(user_id)
     if key in cache:
-        return cache[key] or None
+            # Normalize any old dict-form usernames in cache
+    for k, v in list(cache.items()):
+        cache[k] = _username_to_str(v)
+
+    return cache
+[key] or None
 
     data = _discord_get_json(f"{DISCORD_API_BASE}/users/{user_id}")
     if not data:
@@ -98,6 +103,16 @@ def _fetch_username(user_id: int, cache: dict) -> str | None:
     username = data.get("username")
     cache[key] = username
     return username
+
+
+def _username_to_str(u):
+    # Accept str or {"name": str, "ts": int} style dicts; return safe display string
+    if u is None:
+        return None
+    if isinstance(u, dict):
+        return u.get("name") or u.get("username") or u.get("display_name")
+    return str(u)
+
 
 
 def main():
@@ -140,7 +155,7 @@ def main():
 
         players.append({
             "user_id": uid,
-            "username": username,
+            "username": _username_to_str(username),
             "class": str(r["class"] or ""),
             "rating": int(r["rating"] or 1000),
             "wins": wins,
