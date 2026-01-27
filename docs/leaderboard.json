@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-27 02:27:10 UTC",
+  "generated_at": "2026-01-27 02:34:40 UTC",
   "count": 151,
   "players": [
     {
@@ -1968,6 +1968,6 @@
   ],
   "fetch_discord": true,
   "fetch_limit": 25,
-  "missing_names": 1,
-  "fetched_this_run": 1
+  "missing_names": 0,
+  "fetched_this_run": 0
 }
