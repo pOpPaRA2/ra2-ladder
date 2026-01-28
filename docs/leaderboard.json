@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-28 20:26:40 UTC",
+  "generated_at": "2026-01-28 22:06:22 UTC",
   "count": 151,
   "players": [
     {
@@ -14,19 +14,6 @@
       "loss_streak": 0,
       "dodges": 0,
       "last_match": "2026-01-25 22:20:39"
-    },
-    {
-      "user_id": 578681828639244298,
-      "username": "smoke8880714",
-      "class": "C",
-      "rating": 1084,
-      "wins": 5,
-      "losses": 0,
-      "games": 5,
-      "win_streak": 5,
-      "loss_streak": 0,
-      "dodges": 0,
-      "last_match": "2026-01-28 18:46:07"
     },
     {
       "user_id": 564540700876603392,
@@ -68,6 +55,19 @@
       "last_match": "2026-01-25 16:39:12"
     },
     {
+      "user_id": 578681828639244298,
+      "username": "smoke8880714",
+      "class": "C+",
+      "rating": 1053,
+      "wins": 3,
+      "losses": 0,
+      "games": 3,
+      "win_streak": 3,
+      "loss_streak": 0,
+      "dodges": 0,
+      "last_match": "2026-01-28 21:46:02"
+    },
+    {
       "user_id": 384408474190348288,
       "username": "poppa_ra2",
       "class": "C+",
@@ -97,14 +97,14 @@
       "user_id": 435478413860536322,
       "username": "highlight_t",
       "class": "C",
-      "rating": 1020,
-      "wins": 1,
+      "rating": 1039,
+      "wins": 2,
       "losses": 0,
-      "games": 1,
-      "win_streak": 1,
+      "games": 2,
+      "win_streak": 2,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": "2026-01-22 18:24:45"
+      "last_match": "2026-01-28 21:35:14"
     },
     {
       "user_id": 238762226297733131,
@@ -1654,19 +1654,6 @@
       "last_match": null
     },
     {
-      "user_id": 1287352750836813905,
-      "username": "lud0wig",
-      "class": "C",
-      "rating": 1000,
-      "wins": 0,
-      "losses": 0,
-      "games": 0,
-      "win_streak": 0,
-      "loss_streak": 0,
-      "dodges": 0,
-      "last_match": null
-    },
-    {
       "user_id": 1313194388549271679,
       "username": "greenslips_alex",
       "class": "C",
@@ -1823,6 +1810,19 @@
       "last_match": "2026-01-26 17:21:32"
     },
     {
+      "user_id": 395528551928954881,
+      "username": "niek8759",
+      "class": "C",
+      "rating": 984,
+      "wins": 4,
+      "losses": 4,
+      "games": 8,
+      "win_streak": 0,
+      "loss_streak": 3,
+      "dodges": 0,
+      "last_match": "2026-01-28 18:41:58"
+    },
+    {
       "user_id": 239037390868447232,
       "username": "fugelele",
       "class": "C",
@@ -1834,6 +1834,19 @@
       "loss_streak": 1,
       "dodges": 0,
       "last_match": "2026-01-21 19:35:13"
+    },
+    {
+      "user_id": 1287352750836813905,
+      "username": "lud0wig",
+      "class": "C",
+      "rating": 981,
+      "wins": 0,
+      "losses": 1,
+      "games": 1,
+      "win_streak": 0,
+      "loss_streak": 1,
+      "dodges": 0,
+      "last_match": "2026-01-28 21:35:14"
     },
     {
       "user_id": 236305617067704321,
@@ -1904,27 +1917,14 @@
       "user_id": 364468805369462784,
       "username": "z3t45027",
       "class": "C-",
-      "rating": 952,
+      "rating": 943,
       "wins": 9,
-      "losses": 13,
-      "games": 22,
+      "losses": 14,
+      "games": 23,
       "win_streak": 0,
-      "loss_streak": 1,
+      "loss_streak": 2,
       "dodges": 0,
-      "last_match": "2026-01-26 17:21:32"
-    },
-    {
-      "user_id": 395528551928954881,
-      "username": "niek8759",
-      "class": "C",
-      "rating": 950,
-      "wins": 4,
-      "losses": 7,
-      "games": 11,
-      "win_streak": 0,
-      "loss_streak": 6,
-      "dodges": 0,
-      "last_match": "2026-01-28 18:46:07"
+      "last_match": "2026-01-28 21:46:02"
     },
     {
       "user_id": 260737732957962257,
