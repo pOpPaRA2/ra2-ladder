@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-01-27 03:31:29 UTC",
+  "generated_at": "2026-01-28 20:26:40 UTC",
   "count": 151,
   "players": [
     {
       "user_id": 272775776074465281,
       "username": "root5781",
       "class": "B+",
-      "rating": 1134,
+      "rating": 1115,
       "wins": 6,
       "losses": 0,
       "games": 6,
@@ -16,10 +16,23 @@
       "last_match": "2026-01-25 22:20:39"
     },
     {
+      "user_id": 578681828639244298,
+      "username": "smoke8880714",
+      "class": "C",
+      "rating": 1084,
+      "wins": 5,
+      "losses": 0,
+      "games": 5,
+      "win_streak": 5,
+      "loss_streak": 0,
+      "dodges": 0,
+      "last_match": "2026-01-28 18:46:07"
+    },
+    {
       "user_id": 564540700876603392,
       "username": "fuj77n",
       "class": "B+",
-      "rating": 1093,
+      "rating": 1083,
       "wins": 7,
       "losses": 2,
       "games": 9,
@@ -29,23 +42,10 @@
       "last_match": "2026-01-25 22:20:39"
     },
     {
-      "user_id": 522996129399439360,
-      "username": "bulldooog",
-      "class": "B-",
-      "rating": 1086,
-      "wins": 4,
-      "losses": 0,
-      "games": 4,
-      "win_streak": 4,
-      "loss_streak": 0,
-      "dodges": 0,
-      "last_match": "2026-01-25 16:39:12"
-    },
-    {
       "user_id": 841744096287784960,
       "username": "cheese2.000",
       "class": "B-",
-      "rating": 1078,
+      "rating": 1072,
       "wins": 6,
       "losses": 2,
       "games": 8,
@@ -55,17 +55,17 @@
       "last_match": "2026-01-25 20:44:39"
     },
     {
-      "user_id": 1193403086081896609,
-      "username": "swnt89",
-      "class": "C+",
-      "rating": 1055,
-      "wins": 5,
-      "losses": 3,
-      "games": 8,
-      "win_streak": 2,
+      "user_id": 522996129399439360,
+      "username": "bulldooog",
+      "class": "B-",
+      "rating": 1071,
+      "wins": 4,
+      "losses": 0,
+      "games": 4,
+      "win_streak": 4,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": "2026-01-26 18:48:56"
+      "last_match": "2026-01-25 16:39:12"
     },
     {
       "user_id": 384408474190348288,
@@ -78,20 +78,20 @@
       "win_streak": 3,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": "2026-01-25 00:40:33"
+      "last_match": "2026-01-25 00:40:34"
     },
     {
-      "user_id": 238762226297733131,
-      "username": "lazlo7210",
+      "user_id": 1193403086081896609,
+      "username": "swnt89",
       "class": "C+",
-      "rating": 1020,
-      "wins": 3,
-      "losses": 2,
-      "games": 5,
-      "win_streak": 0,
-      "loss_streak": 2,
+      "rating": 1045,
+      "wins": 5,
+      "losses": 3,
+      "games": 8,
+      "win_streak": 2,
+      "loss_streak": 0,
       "dodges": 0,
-      "last_match": "2026-01-25 15:23:15"
+      "last_match": "2026-01-26 18:48:56"
     },
     {
       "user_id": 435478413860536322,
@@ -107,43 +107,17 @@
       "last_match": "2026-01-22 18:24:45"
     },
     {
-      "user_id": 578681828639244298,
-      "username": "smoke8880714",
-      "class": "C",
-      "rating": 1020,
-      "wins": 1,
-      "losses": 0,
-      "games": 1,
-      "win_streak": 1,
-      "loss_streak": 0,
-      "dodges": 0,
-      "last_match": "2026-01-25 22:13:55"
-    },
-    {
-      "user_id": 395528551928954881,
-      "username": "niek8759",
-      "class": "C",
-      "rating": 1008,
-      "wins": 4,
-      "losses": 3,
-      "games": 7,
+      "user_id": 238762226297733131,
+      "username": "lazlo7210",
+      "class": "C+",
+      "rating": 1015,
+      "wins": 3,
+      "losses": 2,
+      "games": 5,
       "win_streak": 0,
       "loss_streak": 2,
       "dodges": 0,
-      "last_match": "2026-01-25 00:40:33"
-    },
-    {
-      "user_id": 717980333487685667,
-      "username": "doof88",
-      "class": "C+",
-      "rating": 1000,
-      "wins": 4,
-      "losses": 4,
-      "games": 8,
-      "win_streak": 0,
-      "loss_streak": 4,
-      "dodges": 1,
-      "last_match": "2026-01-26 18:48:56"
+      "last_match": "2026-01-25 15:23:15"
     },
     {
       "user_id": 161509188214718464,
@@ -1823,10 +1797,23 @@
       "last_match": null
     },
     {
+      "user_id": 717980333487685667,
+      "username": "doof88",
+      "class": "C",
+      "rating": 995,
+      "wins": 4,
+      "losses": 4,
+      "games": 8,
+      "win_streak": 0,
+      "loss_streak": 4,
+      "dodges": 0,
+      "last_match": "2026-01-26 18:48:56"
+    },
+    {
       "user_id": 366504446559256587,
       "username": "qwopxcnm",
       "class": "C",
-      "rating": 996,
+      "rating": 995,
       "wins": 2,
       "losses": 2,
       "games": 4,
@@ -1834,19 +1821,6 @@
       "loss_streak": 0,
       "dodges": 0,
       "last_match": "2026-01-26 17:21:32"
-    },
-    {
-      "user_id": 835786495112904735,
-      "username": "codsetr",
-      "class": "C",
-      "rating": 984,
-      "wins": 6,
-      "losses": 7,
-      "games": 13,
-      "win_streak": 0,
-      "loss_streak": 1,
-      "dodges": 0,
-      "last_match": "2026-01-25 22:13:55"
     },
     {
       "user_id": 239037390868447232,
@@ -1914,10 +1888,23 @@
       "last_match": "2026-01-22 01:28:14"
     },
     {
+      "user_id": 835786495112904735,
+      "username": "codsetr",
+      "class": "C",
+      "rating": 973,
+      "wins": 6,
+      "losses": 7,
+      "games": 13,
+      "win_streak": 0,
+      "loss_streak": 1,
+      "dodges": 0,
+      "last_match": "2026-01-25 22:13:55"
+    },
+    {
       "user_id": 364468805369462784,
       "username": "z3t45027",
       "class": "C-",
-      "rating": 957,
+      "rating": 952,
       "wins": 9,
       "losses": 13,
       "games": 22,
@@ -1927,10 +1914,23 @@
       "last_match": "2026-01-26 17:21:32"
     },
     {
+      "user_id": 395528551928954881,
+      "username": "niek8759",
+      "class": "C",
+      "rating": 950,
+      "wins": 4,
+      "losses": 7,
+      "games": 11,
+      "win_streak": 0,
+      "loss_streak": 6,
+      "dodges": 0,
+      "last_match": "2026-01-28 18:46:07"
+    },
+    {
       "user_id": 260737732957962257,
       "username": ".shamou",
       "class": "C-",
-      "rating": 948,
+      "rating": 943,
       "wins": 0,
       "losses": 3,
       "games": 3,
@@ -1943,7 +1943,7 @@
       "user_id": 113743997045833732,
       "username": "mister_t_gaming",
       "class": "C-",
-      "rating": 945,
+      "rating": 940,
       "wins": 0,
       "losses": 3,
       "games": 3,
@@ -1956,7 +1956,7 @@
       "user_id": 1213889235720085544,
       "username": "ynwasully",
       "class": "C-",
-      "rating": 866,
+      "rating": 851,
       "wins": 2,
       "losses": 14,
       "games": 16,
