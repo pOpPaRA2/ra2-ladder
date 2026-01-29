@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>RA2 Ladder — Last 50 Matches</title>
+
+  <!-- Reuse your existing site styling if present -->
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    body { font-family: Arial, sans-serif; margin: 16px; }
+    .wrap { max-width: 1100px; margin: 0 auto; }
+    header { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+    h1 { font-size: 22px; margin: 0; }
+    .meta { opacity: 0.8; font-size: 13px; }
+    .controls { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
+    input { padding: 8px 10px; border-radius: 10px; border: 1px solid rgba(255,255,255,.2); background: rgba(0,0,0,.25); color: inherit; }
+    table { width: 100%; border-collapse: collapse; border-radius: 14px; overflow: hidden; }
+    th, td { padding: 10px 12px; border-bottom: 1px solid rgba(255,255,255,.12); text-align: left; vertical-align: top; }
+    th { position: sticky; top: 0; background: rgba(0,0,0,.45); backdrop-filter: blur(6px); font-size: 13px; letter-spacing: .02em; }
+    tr:hover td { background: rgba(255,255,255,.06); }
+    a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+    .pill { display: inline-block; padding: 2px 8px; border-radius: 999px; background: rgba(255,255,255,.10); font-size: 12px; }
+    .muted { opacity: .75; }
+    .footer { margin-top: 12px; opacity: .75; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>Last 50 Matches</h1>
+        <div class="meta" id="meta">Loading…</div>
+      </div>
+      <div class="meta">
+        <a href="./">← Back to Leaderboard</a>
+      </div>
+    </header>
+
+    <div class="controls">
+      <input id="q" type="text" placeholder="Filter by player ID (or name if available)..." />
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 90px;">Match</th>
+          <th style="width: 170px;">When</th>
+          <th>Winner</th>
+          <th>Loser</th>
+          <th style="width: 90px;">Score</th>
+          <th style="width: 140px;">MMR Δ</th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+
+    <div class="footer">
+      This page reads <span class="pill">docs/matches.json</span>. If it’s empty, run the exporter and push updates.
+    </div>
+  </div>
+
+  <script src="matches.js"></script>
+</body>
+</html>
