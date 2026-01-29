@@ -1,6 +1,507 @@
 {
-  "generated_at": "2026-01-29 15:45:13 UTC",
-  "count": 0,
-  "audit_used": true,
-  "matches": []
+  "generated_at": "2026-01-29 16:29:37 UTC",
+  "count": 50,
+  "audit_used": false,
+  "matches": [
+    {
+      "match_id": 114,
+      "winner_id": 564540700876603392,
+      "loser_id": 835786495112904735,
+      "winner_class": "B+",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-1",
+      "timestamp": "2026-01-28T22:43:15.950150+00:00"
+    },
+    {
+      "match_id": 104,
+      "winner_id": 1180553578801270784,
+      "loser_id": 757315409044308028,
+      "winner_class": "C",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-1",
+      "timestamp": "2026-01-28T22:10:45.996188+00:00"
+    },
+    {
+      "match_id": 107,
+      "winner_id": 578681828639244298,
+      "loser_id": 364468805369462784,
+      "winner_class": "C",
+      "loser_class": "C-",
+      "format": "First to 3",
+      "score": "3-1",
+      "timestamp": "2026-01-28T21:46:02.765908+00:00"
+    },
+    {
+      "match_id": 108,
+      "winner_id": 435478413860536322,
+      "loser_id": 1287352750836813905,
+      "winner_class": "C",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-2",
+      "timestamp": "2026-01-28T21:35:14.859535+00:00"
+    },
+    {
+      "match_id": 109,
+      "winner_id": 578681828639244298,
+      "loser_id": 395528551928954881,
+      "winner_class": "C",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-1",
+      "timestamp": "2026-01-28T18:41:58.005378+00:00"
+    },
+    {
+      "match_id": 99,
+      "winner_id": 1193403086081896609,
+      "loser_id": 717980333487685667,
+      "winner_class": "C+",
+      "loser_class": "B-",
+      "format": "First to 3",
+      "score": "3-0",
+      "timestamp": "2026-01-26T18:48:56.257860+00:00"
+    },
+    {
+      "match_id": 98,
+      "winner_id": 366504446559256587,
+      "loser_id": 364468805369462784,
+      "winner_class": "C",
+      "loser_class": "C-",
+      "format": "First to 3",
+      "score": "3-0",
+      "timestamp": "2026-01-26T17:21:32.623959+00:00"
+    },
+    {
+      "match_id": 96,
+      "winner_id": 272775776074465281,
+      "loser_id": 564540700876603392,
+      "winner_class": "B",
+      "loser_class": "B+",
+      "format": "First to 3",
+      "score": "3-0",
+      "timestamp": "2026-01-25T22:20:39.320848+00:00"
+    },
+    {
+      "match_id": 97,
+      "winner_id": 578681828639244298,
+      "loser_id": 835786495112904735,
+      "winner_class": "C",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-2",
+      "timestamp": "2026-01-25T22:13:55.618931+00:00"
+    },
+    {
+      "match_id": 94,
+      "winner_id": 835786495112904735,
+      "loser_id": 1213889235720085544,
+      "winner_class": "C",
+      "loser_class": "C-",
+      "format": "First to 3",
+      "score": "3-0",
+      "timestamp": "2026-01-25T21:11:04.903558+00:00"
+    },
+    {
+      "match_id": 95,
+      "winner_id": 564540700876603392,
+      "loser_id": 841744096287784960,
+      "winner_class": "B",
+      "loser_class": "B-",
+      "format": "First to 3",
+      "score": "3-1",
+      "timestamp": "2026-01-25T20:44:39.411017+00:00"
+    },
+    {
+      "match_id": 90,
+      "winner_id": 364468805369462784,
+      "loser_id": 366504446559256587,
+      "winner_class": "C-",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-1",
+      "timestamp": "2026-01-25T17:48:27.769381+00:00"
+    },
+    {
+      "match_id": 92,
+      "winner_id": 1193403086081896609,
+      "loser_id": 835786495112904735,
+      "winner_class": "C+",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-1",
+      "timestamp": "2026-01-25T17:21:03.866803+00:00"
+    },
+    {
+      "match_id": 91,
+      "winner_id": 522996129399439360,
+      "loser_id": 835786495112904735,
+      "winner_class": "C+",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-2",
+      "timestamp": "2026-01-25T16:39:12.147436+00:00"
+    },
+    {
+      "match_id": 89,
+      "winner_id": 841744096287784960,
+      "loser_id": 238762226297733131,
+      "winner_class": "C+",
+      "loser_class": "C+",
+      "format": "First to 3",
+      "score": "3-2",
+      "timestamp": "2026-01-25T15:23:15.284474+00:00"
+    },
+    {
+      "match_id": 88,
+      "winner_id": 835786495112904735,
+      "loser_id": 364468805369462784,
+      "winner_class": "C",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-2",
+      "timestamp": "2026-01-25T12:31:01.916513+00:00"
+    },
+    {
+      "match_id": 84,
+      "winner_id": 384408474190348288,
+      "loser_id": 395528551928954881,
+      "winner_class": "C",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-0",
+      "timestamp": "2026-01-25T00:40:34.011731+00:00"
+    },
+    {
+      "match_id": 82,
+      "winner_id": 522996129399439360,
+      "loser_id": 113743997045833732,
+      "winner_class": "C",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-0",
+      "timestamp": "2026-01-24T23:32:49.250798+00:00"
+    },
+    {
+      "match_id": 83,
+      "winner_id": 841744096287784960,
+      "loser_id": 717980333487685667,
+      "winner_class": "C+",
+      "loser_class": "C+",
+      "format": "First to 3",
+      "score": "3-0",
+      "timestamp": "2026-01-24T23:03:35.182597+00:00"
+    },
+    {
+      "match_id": 81,
+      "winner_id": 564540700876603392,
+      "loser_id": 717980333487685667,
+      "winner_class": "B-",
+      "loser_class": "B",
+      "format": "First to 3",
+      "score": "3-0",
+      "timestamp": "2026-01-24T22:20:41.402844+00:00"
+    },
+    {
+      "match_id": 80,
+      "winner_id": 841744096287784960,
+      "loser_id": 1193403086081896609,
+      "winner_class": "C+",
+      "loser_class": "C+",
+      "format": "First to 3",
+      "score": "3-0",
+      "timestamp": "2026-01-24T21:53:15.966936+00:00"
+    },
+    {
+      "match_id": 78,
+      "winner_id": 564540700876603392,
+      "loser_id": 835786495112904735,
+      "winner_class": "C+",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-1",
+      "timestamp": "2026-01-24T21:46:22.140304+00:00"
+    },
+    {
+      "match_id": 79,
+      "winner_id": 1193403086081896609,
+      "loser_id": 364468805369462784,
+      "winner_class": "C",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-0",
+      "timestamp": "2026-01-24T18:37:40.230888+00:00"
+    },
+    {
+      "match_id": 70,
+      "winner_id": 1193403086081896609,
+      "loser_id": 238762226297733131,
+      "winner_class": "C",
+      "loser_class": "C+",
+      "format": "First to 3",
+      "score": "3-0",
+      "timestamp": "2026-01-24T17:16:52.921104+00:00"
+    },
+    {
+      "match_id": 77,
+      "winner_id": 522996129399439360,
+      "loser_id": 364468805369462784,
+      "winner_class": "C",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-1",
+      "timestamp": "2026-01-24T16:38:38.946100+00:00"
+    },
+    {
+      "match_id": 47,
+      "winner_id": 522996129399439360,
+      "loser_id": 366504446559256587,
+      "winner_class": "C",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-2",
+      "timestamp": "2026-01-24T16:00:29.691487+00:00"
+    },
+    {
+      "match_id": 75,
+      "winner_id": 364468805369462784,
+      "loser_id": 1120254277324128326,
+      "winner_class": "C",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-0",
+      "timestamp": "2026-01-24T13:48:44.888862+00:00"
+    },
+    {
+      "match_id": 72,
+      "winner_id": 564540700876603392,
+      "loser_id": 1213889235720085544,
+      "winner_class": "C",
+      "loser_class": "C-",
+      "format": "First to 3",
+      "score": "3-0",
+      "timestamp": "2026-01-24T00:35:02.683445+00:00"
+    },
+    {
+      "match_id": 71,
+      "winner_id": 564540700876603392,
+      "loser_id": 113743997045833732,
+      "winner_class": "C",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-2",
+      "timestamp": "2026-01-24T00:13:04.102803+00:00"
+    },
+    {
+      "match_id": 69,
+      "winner_id": 564540700876603392,
+      "loser_id": 364468805369462784,
+      "winner_class": "C",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-1",
+      "timestamp": "2026-01-23T23:16:27.429581+00:00"
+    },
+    {
+      "match_id": 68,
+      "winner_id": 1213889235720085544,
+      "loser_id": 113743997045833732,
+      "winner_class": "C-",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-2",
+      "timestamp": "2026-01-23T22:38:44.250460+00:00"
+    },
+    {
+      "match_id": 65,
+      "winner_id": 1193403086081896609,
+      "loser_id": 364468805369462784,
+      "winner_class": "C",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-1",
+      "timestamp": "2026-01-23T22:36:47.761547+00:00"
+    },
+    {
+      "match_id": 66,
+      "winner_id": 238762226297733131,
+      "loser_id": 564540700876603392,
+      "winner_class": "C",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-2",
+      "timestamp": "2026-01-23T22:03:52.323780+00:00"
+    },
+    {
+      "match_id": 64,
+      "winner_id": 564540700876603392,
+      "loser_id": 1193403086081896609,
+      "winner_class": "C",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-1",
+      "timestamp": "2026-01-23T19:53:39.332803+00:00"
+    },
+    {
+      "match_id": 59,
+      "winner_id": 364468805369462784,
+      "loser_id": 1213889235720085544,
+      "winner_class": "C",
+      "loser_class": "C-",
+      "format": "First to 3",
+      "score": "3-0",
+      "timestamp": "2026-01-23T18:19:14.585942+00:00"
+    },
+    {
+      "match_id": 58,
+      "winner_id": 364468805369462784,
+      "loser_id": 395528551928954881,
+      "winner_class": "C",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-1",
+      "timestamp": "2026-01-23T16:55:27.549269+00:00"
+    },
+    {
+      "match_id": 57,
+      "winner_id": 384408474190348288,
+      "loser_id": 364468805369462784,
+      "winner_class": "C",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-0",
+      "timestamp": "2026-01-23T14:36:33.662668+00:00"
+    },
+    {
+      "match_id": 56,
+      "winner_id": 238762226297733131,
+      "loser_id": 260737732957962257,
+      "winner_class": "C",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-0",
+      "timestamp": "2026-01-23T13:46:23.104402+00:00"
+    },
+    {
+      "match_id": 53,
+      "winner_id": 384408474190348288,
+      "loser_id": 1213889235720085544,
+      "winner_class": "C",
+      "loser_class": "C-",
+      "format": "First to 3",
+      "score": "3-0",
+      "timestamp": "2026-01-23T13:06:45.920316+00:00"
+    },
+    {
+      "match_id": 52,
+      "winner_id": 835786495112904735,
+      "loser_id": 1213889235720085544,
+      "winner_class": "C",
+      "loser_class": "C-",
+      "format": "First to 3",
+      "score": "3-0",
+      "timestamp": "2026-01-23T01:19:10.026000+00:00"
+    },
+    {
+      "match_id": 50,
+      "winner_id": 364468805369462784,
+      "loser_id": 835786495112904735,
+      "winner_class": "C",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-1",
+      "timestamp": "2026-01-22T23:15:17.555585+00:00"
+    },
+    {
+      "match_id": 51,
+      "winner_id": 272775776074465281,
+      "loser_id": 717980333487685667,
+      "winner_class": "B-",
+      "loser_class": "B",
+      "format": "First to 3",
+      "score": "3-0",
+      "timestamp": "2026-01-22T22:21:20.088015+00:00"
+    },
+    {
+      "match_id": 48,
+      "winner_id": 395528551928954881,
+      "loser_id": 1213889235720085544,
+      "winner_class": "C",
+      "loser_class": "C-",
+      "format": "First to 3",
+      "score": "3-1",
+      "timestamp": "2026-01-22T21:58:39.792743+00:00"
+    },
+    {
+      "match_id": 46,
+      "winner_id": 717980333487685667,
+      "loser_id": 364468805369462784,
+      "winner_class": "C+",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "0-3",
+      "timestamp": "2026-01-22T21:17:05.030700+00:00"
+    },
+    {
+      "match_id": 28,
+      "winner_id": 435478413860536322,
+      "loser_id": 757315409044308028,
+      "winner_class": "C",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-2",
+      "timestamp": "2026-01-22T18:24:45.878419+00:00"
+    },
+    {
+      "match_id": 43,
+      "winner_id": 366504446559256587,
+      "loser_id": 364468805369462784,
+      "winner_class": "C",
+      "loser_class": "C",
+      "format": "First to 3",
+      "score": "3-2",
+      "timestamp": "2026-01-22T17:04:14.356634+00:00"
+    },
+    {
+      "match_id": 45,
+      "winner_id": 835786495112904735,
+      "loser_id": 1213889235720085544,
+      "winner_class": "C",
+      "loser_class": "C-",
+      "format": "First to 3",
+      "score": "3-0",
+      "timestamp": "2026-01-22T16:25:27.891558+00:00"
+    },
+    {
+      "match_id": 39,
+      "winner_id": 272775776074465281,
+      "loser_id": 841744096287784960,
+      "winner_class": "C+",
+      "loser_class": "C+",
+      "format": "First to 3",
+      "score": "3-0",
+      "timestamp": "2026-01-22T15:46:19.341737+00:00"
+    },
+    {
+      "match_id": 44,
+      "winner_id": 835786495112904735,
+      "loser_id": 1213889235720085544,
+      "winner_class": "C",
+      "loser_class": "C-",
+      "format": "First to 3",
+      "score": "3-1",
+      "timestamp": "2026-01-22T14:16:59.134491+00:00"
+    },
+    {
+      "match_id": 41,
+      "winner_id": 364468805369462784,
+      "loser_id": 1213889235720085544,
+      "winner_class": "C",
+      "loser_class": "C-",
+      "format": "First to 3",
+      "score": "3-0",
+      "timestamp": "2026-01-22T13:29:44.873774+00:00"
+    }
+  ]
 }
