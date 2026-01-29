@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-29 05:55:07 UTC",
+  "generated_at": "2026-01-29 06:57:14 UTC",
   "count": 151,
   "players": [
     {
@@ -68,6 +68,19 @@
       "last_match": "2026-01-26 18:48:56"
     },
     {
+      "user_id": 578681828639244298,
+      "username": "smoke8880714",
+      "class": "C+",
+      "rating": 1053,
+      "wins": 3,
+      "losses": 0,
+      "games": 3,
+      "win_streak": 3,
+      "loss_streak": 0,
+      "dodges": 0,
+      "last_match": "2026-01-28 21:46:02"
+    },
+    {
       "user_id": 384408474190348288,
       "username": "poppa_ra2",
       "class": "C+",
@@ -81,17 +94,17 @@
       "last_match": "2026-01-25 00:40:34"
     },
     {
-      "user_id": 578681828639244298,
-      "username": "smoke8880714",
-      "class": "C+",
-      "rating": 1020,
-      "wins": 3,
+      "user_id": 435478413860536322,
+      "username": "highlight_t",
+      "class": "C",
+      "rating": 1039,
+      "wins": 2,
       "losses": 0,
-      "games": 3,
-      "win_streak": 3,
+      "games": 2,
+      "win_streak": 2,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": "2026-01-28 21:46:02"
+      "last_match": "2026-01-28 21:35:14"
     },
     {
       "user_id": 238762226297733131,
@@ -107,17 +120,17 @@
       "last_match": "2026-01-25 15:23:15"
     },
     {
-      "user_id": 435478413860536322,
-      "username": "highlight_t",
+      "user_id": 1180553578801270784,
+      "username": "ossama.b.g",
       "class": "C",
-      "rating": 1020,
-      "wins": 2,
+      "rating": 1019,
+      "wins": 1,
       "losses": 0,
-      "games": 2,
-      "win_streak": 2,
+      "games": 1,
+      "win_streak": 1,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": "2026-01-28 21:35:14"
+      "last_match": "2026-01-28 22:10:45"
     },
     {
       "user_id": 395528551928954881,
@@ -144,19 +157,6 @@
       "loss_streak": 4,
       "dodges": 0,
       "last_match": "2026-01-26 18:48:56"
-    },
-    {
-      "user_id": 1180553578801270784,
-      "username": "ossama.b.g",
-      "class": "C",
-      "rating": 1000,
-      "wins": 1,
-      "losses": 0,
-      "games": 1,
-      "win_streak": 1,
-      "loss_streak": 0,
-      "dodges": 0,
-      "last_match": "2026-01-28 22:10:45"
     },
     {
       "user_id": 161509188214718464,
@@ -1810,19 +1810,6 @@
       "last_match": null
     },
     {
-      "user_id": 1287352750836813905,
-      "username": "lud0wig",
-      "class": "C",
-      "rating": 1000,
-      "wins": 0,
-      "losses": 1,
-      "games": 1,
-      "win_streak": 0,
-      "loss_streak": 1,
-      "dodges": 0,
-      "last_match": "2026-01-28 21:35:14"
-    },
-    {
       "user_id": 366504446559256587,
       "username": "qwopxcnm",
       "class": "C",
@@ -1860,6 +1847,19 @@
       "loss_streak": 1,
       "dodges": 0,
       "last_match": "2026-01-21 19:35:13"
+    },
+    {
+      "user_id": 1287352750836813905,
+      "username": "lud0wig",
+      "class": "C",
+      "rating": 981,
+      "wins": 0,
+      "losses": 1,
+      "games": 1,
+      "win_streak": 0,
+      "loss_streak": 1,
+      "dodges": 0,
+      "last_match": "2026-01-28 21:35:14"
     },
     {
       "user_id": 236305617067704321,
@@ -1914,19 +1914,6 @@
       "last_match": "2026-01-22 01:28:14"
     },
     {
-      "user_id": 364468805369462784,
-      "username": "z3t45027",
-      "class": "C-",
-      "rating": 957,
-      "wins": 9,
-      "losses": 14,
-      "games": 23,
-      "win_streak": 0,
-      "loss_streak": 2,
-      "dodges": 0,
-      "last_match": "2026-01-28 21:46:02"
-    },
-    {
       "user_id": 260737732957962257,
       "username": ".shamou",
       "class": "C-",
@@ -1953,6 +1940,19 @@
       "last_match": "2026-01-24 23:32:49"
     },
     {
+      "user_id": 364468805369462784,
+      "username": "z3t45027",
+      "class": "C-",
+      "rating": 943,
+      "wins": 9,
+      "losses": 14,
+      "games": 23,
+      "win_streak": 0,
+      "loss_streak": 2,
+      "dodges": 0,
+      "last_match": "2026-01-28 21:46:02"
+    },
+    {
       "user_id": 1213889235720085544,
       "username": "ynwasully",
       "class": "C-",
@@ -1965,12 +1965,5 @@
       "dodges": 0,
       "last_match": "2026-01-25 21:11:04"
     }
-  ],
-  "merge_note": {
-    "wl_source_generated_at": "2026-01-28 23:26:49 UTC",
-    "mmr_source_generated_at": "2026-01-27 03:31:29 UTC",
-    "missing_mmr_for_wl_players": 0,
-    "extra_players_from_mmr": 0,
-    "rule": "Copied stats from W/L file; copied rating from MMR file when user_id matched; left everything else unchanged."
-  }
+  ]
 }
