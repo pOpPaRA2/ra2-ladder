@@ -15,7 +15,9 @@ function fmtDelta(n) {
 }
 
 function playerLink(id) {
-  return `<a href="./?user_id=${encodeURIComponent(id)}">#${esc(id)}</a>`;
+  // matches page lives under /docs/, player profile is at site root (/player.html)
+  const base = location.pathname.includes("/docs/") ? "../" : "./";
+  return `<a href="${base}player.html?id=${encodeURIComponent(id)}">${esc(id)}</a>`;
 }
 
 function safeTime(s) {
@@ -30,7 +32,7 @@ async function load() {
 
   let data;
   try {
-    const res = await fetch("./matches.json", { cache: "no-store" });
+    const res = await fetch(`./matches.json?v=${Date.now()}`, { cache: "no-store" });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     data = await res.json();
   } catch (e) {

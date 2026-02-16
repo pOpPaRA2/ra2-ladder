@@ -204,7 +204,7 @@
       return;
     }
 
-    const lb = await loadJSON("./leaderboard.json");
+    const lb = await loadJSON("./docs/leaderboard.json");
     const players = toArr(lb);
     const me = players.find(p => String(p.user_id) === String(id));
 
@@ -240,7 +240,7 @@
     // matches
     let matches = [];
     try{
-      const mj = await loadJSON("./matches.json");
+      const mj = await loadJSON("./docs/matches.json");
       matches = toArr(mj);
     }catch(e){
       // If matches.json isn't present yet, keep page usable.
