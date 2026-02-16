@@ -1,89 +1,139 @@
 {
-  "generated_at": "2026-01-29 08:31:28 UTC",
-  "count": 151,
+  "generated_at": "2026-02-16 00:38:47 UTC",
+  "count": 152,
   "players": [
+    {
+      "user_id": 243456756360019968,
+      "username": "artvandelay7014",
+      "class": "S",
+      "rating": 1203,
+      "wins": 9,
+      "losses": 0,
+      "games": 9,
+      "win_streak": 9,
+      "loss_streak": 0,
+      "dodges": 0,
+      "last_match": "2026-02-13 16:20:35",
+      "streak_icon": "🔥",
+      "rank": 1,
+      "rank_change": 20
+    },
     {
       "user_id": 272775776074465281,
       "username": "root5781",
-      "class": "B+",
-      "rating": 1134,
-      "wins": 6,
-      "losses": 0,
-      "games": 6,
-      "win_streak": 6,
+      "class": "A",
+      "rating": 1148,
+      "wins": 10,
+      "losses": 3,
+      "games": 13,
+      "win_streak": 1,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": "2026-01-25 22:20:39"
+      "last_match": "2026-02-15 13:32:25",
+      "streak_icon": "🔥",
+      "rank": 2,
+      "rank_change": -1
+    },
+    {
+      "user_id": 460346056044183572,
+      "username": "zeffy91",
+      "class": "B+",
+      "rating": 1112,
+      "wins": 4,
+      "losses": 1,
+      "games": 5,
+      "win_streak": 0,
+      "loss_streak": 1,
+      "dodges": 0,
+      "last_match": "2026-02-15 13:32:25",
+      "streak_icon": "🥶",
+      "rank": 3,
+      "rank_change": 49
+    },
+    {
+      "user_id": 578681828639244298,
+      "username": "smoke8880714",
+      "class": "B",
+      "rating": 1094,
+      "wins": 5,
+      "losses": 0,
+      "games": 5,
+      "win_streak": 5,
+      "loss_streak": 0,
+      "dodges": 1,
+      "last_match": "2026-02-03 22:16:16",
+      "streak_icon": "🔥",
+      "rank": 4,
+      "rank_change": 2
+    },
+    {
+      "user_id": 866803039715983411,
+      "username": "bhaiz1",
+      "class": "B+",
+      "rating": 1084,
+      "wins": 7,
+      "losses": 4,
+      "games": 11,
+      "win_streak": 0,
+      "loss_streak": 1,
+      "dodges": 0,
+      "last_match": "2026-02-12 21:31:50",
+      "streak_icon": "🥶",
+      "rank": 5,
+      "rank_change": 99
     },
     {
       "user_id": 564540700876603392,
       "username": "fuj77n",
       "class": "B+",
-      "rating": 1093,
-      "wins": 8,
-      "losses": 2,
-      "games": 10,
-      "win_streak": 1,
-      "loss_streak": 0,
+      "rating": 1080,
+      "wins": 10,
+      "losses": 5,
+      "games": 15,
+      "win_streak": 0,
+      "loss_streak": 1,
       "dodges": 0,
-      "last_match": "2026-01-28 22:43:15"
-    },
-    {
-      "user_id": 522996129399439360,
-      "username": "bulldooog",
-      "class": "B-",
-      "rating": 1086,
-      "wins": 4,
-      "losses": 0,
-      "games": 4,
-      "win_streak": 4,
-      "loss_streak": 0,
-      "dodges": 0,
-      "last_match": "2026-01-25 16:39:12"
+      "last_match": "2026-02-03 22:16:16",
+      "streak_icon": "🥶",
+      "rank": 6,
+      "rank_change": -4
     },
     {
       "user_id": 841744096287784960,
       "username": "cheese2.000",
-      "class": "B-",
-      "rating": 1078,
+      "class": "C+",
+      "rating": 1072,
       "wins": 6,
       "losses": 2,
       "games": 8,
       "win_streak": 0,
       "loss_streak": 1,
       "dodges": 0,
-      "last_match": "2026-01-25 20:44:39"
+      "last_match": "2026-01-25 20:44:39",
+      "streak_icon": "🥶",
+      "rank": 7,
+      "rank_change": -3
     },
     {
-      "user_id": 1193403086081896609,
-      "username": "swnt89",
-      "class": "C+",
-      "rating": 1055,
-      "wins": 5,
-      "losses": 3,
+      "user_id": 1180553578801270784,
+      "username": "ossama.b.g",
+      "class": "B+",
+      "rating": 1070,
+      "wins": 6,
+      "losses": 2,
       "games": 8,
-      "win_streak": 2,
-      "loss_streak": 0,
-      "dodges": 0,
-      "last_match": "2026-01-26 18:48:56"
-    },
-    {
-      "user_id": 578681828639244298,
-      "username": "smoke8880714",
-      "class": "C+",
-      "rating": 1053,
-      "wins": 3,
-      "losses": 0,
-      "games": 3,
-      "win_streak": 3,
-      "loss_streak": 0,
-      "dodges": 0,
-      "last_match": "2026-01-28 21:46:02"
+      "win_streak": 0,
+      "loss_streak": 2,
+      "dodges": 1,
+      "last_match": "2026-02-01 17:53:24",
+      "streak_icon": "🥶",
+      "rank": 8,
+      "rank_change": 2
     },
     {
       "user_id": 384408474190348288,
       "username": "poppa_ra2",
-      "class": "C+",
+      "class": "C-",
       "rating": 1051,
       "wins": 3,
       "losses": 0,
@@ -91,72 +141,106 @@
       "win_streak": 3,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": "2026-01-25 00:40:34"
+      "last_match": "2026-01-25 00:40:34",
+      "streak_icon": "🔥",
+      "rank": 9,
+      "rank_change": -2
     },
     {
-      "user_id": 435478413860536322,
-      "username": "highlight_t",
-      "class": "C",
-      "rating": 1039,
+      "user_id": 522996129399439360,
+      "username": "bulldooog",
+      "class": "B",
+      "rating": 1047,
+      "wins": 4,
+      "losses": 1,
+      "games": 5,
+      "win_streak": 0,
+      "loss_streak": 1,
+      "dodges": 1,
+      "last_match": "2026-02-01 19:09:10",
+      "streak_icon": "🥶",
+      "rank": 10,
+      "rank_change": -7
+    },
+    {
+      "user_id": 1193403086081896609,
+      "username": "swnt89",
+      "class": "C+",
+      "rating": 1042,
+      "wins": 9,
+      "losses": 9,
+      "games": 18,
+      "win_streak": 0,
+      "loss_streak": 3,
+      "dodges": 0,
+      "last_match": "2026-02-13 18:30:14",
+      "streak_icon": "🥶",
+      "rank": 11,
+      "rank_change": -6
+    },
+    {
+      "user_id": 757315409044308028,
+      "username": "realest7176",
+      "class": "C+",
+      "rating": 1022,
       "wins": 2,
-      "losses": 0,
-      "games": 2,
+      "losses": 2,
+      "games": 4,
       "win_streak": 2,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": "2026-01-28 21:35:14"
+      "last_match": "2026-02-10 02:43:50",
+      "streak_icon": "🔥",
+      "rank": 12,
+      "rank_change": 133
     },
     {
-      "user_id": 238762226297733131,
-      "username": "lazlo7210",
-      "class": "C+",
-      "rating": 1020,
-      "wins": 3,
-      "losses": 2,
-      "games": 5,
-      "win_streak": 0,
-      "loss_streak": 2,
-      "dodges": 0,
-      "last_match": "2026-01-25 15:23:15"
-    },
-    {
-      "user_id": 1180553578801270784,
-      "username": "ossama.b.g",
+      "user_id": 276980205984415745,
+      "username": "edd1315",
       "class": "C",
-      "rating": 1019,
+      "rating": 1018,
       "wins": 1,
       "losses": 0,
       "games": 1,
       "win_streak": 1,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": "2026-01-28 22:10:45"
+      "last_match": "2026-01-31 00:49:13",
+      "streak_icon": "🔥",
+      "rank": 13,
+      "rank_change": 14
     },
     {
-      "user_id": 395528551928954881,
-      "username": "niek8759",
+      "user_id": 1190432563748151400,
+      "username": "undertheglock2",
       "class": "C",
-      "rating": 1008,
-      "wins": 4,
-      "losses": 4,
-      "games": 8,
-      "win_streak": 0,
-      "loss_streak": 3,
+      "rating": 1017,
+      "wins": 2,
+      "losses": 1,
+      "games": 3,
+      "win_streak": 1,
+      "loss_streak": 0,
       "dodges": 0,
-      "last_match": "2026-01-28 18:41:58"
+      "last_match": "2026-02-10 19:41:10",
+      "streak_icon": "🔥",
+      "rank": 14,
+      "rank_change": 109
     },
     {
-      "user_id": 717980333487685667,
-      "username": "doof88",
-      "class": "C+",
-      "rating": 1000,
-      "wins": 4,
-      "losses": 4,
-      "games": 8,
+      "user_id": 435478413860536322,
+      "username": "highlight_t",
+      "class": "C",
+      "rating": 1002,
+      "wins": 2,
+      "losses": 2,
+      "games": 4,
       "win_streak": 0,
-      "loss_streak": 4,
+      "loss_streak": 2,
       "dodges": 0,
-      "last_match": "2026-01-26 18:48:56"
+      "last_match": "2026-02-13 19:06:25",
+      "streak_icon": "🥶",
+      "rank": 15,
+      "rank_change": -7
     },
     {
       "user_id": 161509188214718464,
@@ -169,7 +253,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 16,
+      "rank_change": -3
     },
     {
       "user_id": 190406949743886336,
@@ -182,20 +269,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
-    },
-    {
-      "user_id": 195645517324222464,
-      "username": "sojourner5151",
-      "class": "C",
-      "rating": 1000,
-      "wins": 0,
-      "losses": 0,
-      "games": 0,
-      "win_streak": 0,
-      "loss_streak": 0,
-      "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 17,
+      "rank_change": -3
     },
     {
       "user_id": 212233231129509899,
@@ -208,7 +285,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 18,
+      "rank_change": -2
     },
     {
       "user_id": 216028795919007745,
@@ -220,8 +300,11 @@
       "games": 0,
       "win_streak": 0,
       "loss_streak": 0,
-      "dodges": 0,
-      "last_match": null
+      "dodges": 1,
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 19,
+      "rank_change": -2
     },
     {
       "user_id": 217727886487060480,
@@ -233,8 +316,11 @@
       "games": 0,
       "win_streak": 0,
       "loss_streak": 0,
-      "dodges": 0,
-      "last_match": null
+      "dodges": 1,
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 20,
+      "rank_change": -2
     },
     {
       "user_id": 228537644844449793,
@@ -247,7 +333,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 21,
+      "rank_change": -2
     },
     {
       "user_id": 238425303246962689,
@@ -260,20 +349,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
-    },
-    {
-      "user_id": 243456756360019968,
-      "username": "artvandelay7014",
-      "class": "C",
-      "rating": 1000,
-      "wins": 0,
-      "losses": 0,
-      "games": 0,
-      "win_streak": 0,
-      "loss_streak": 0,
-      "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 22,
+      "rank_change": -2
     },
     {
       "user_id": 261242531965173760,
@@ -286,7 +365,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 23,
+      "rank_change": -1
     },
     {
       "user_id": 265345532480847872,
@@ -299,7 +381,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 24,
+      "rank_change": -1
     },
     {
       "user_id": 272191478833348608,
@@ -312,7 +397,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 25,
+      "rank_change": -1
     },
     {
       "user_id": 272697838750793730,
@@ -325,7 +413,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 26,
+      "rank_change": -1
     },
     {
       "user_id": 272832676937990145,
@@ -338,20 +429,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
-    },
-    {
-      "user_id": 276980205984415745,
-      "username": "edd1315",
-      "class": "C",
-      "rating": 1000,
-      "wins": 0,
-      "losses": 0,
-      "games": 0,
-      "win_streak": 0,
-      "loss_streak": 0,
-      "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 27,
+      "rank_change": -1
     },
     {
       "user_id": 279702886223446016,
@@ -364,7 +445,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 28,
+      "rank_change": 0
     },
     {
       "user_id": 292019553204961282,
@@ -377,7 +461,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 29,
+      "rank_change": 0
     },
     {
       "user_id": 293175003736834058,
@@ -390,7 +477,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 30,
+      "rank_change": 0
     },
     {
       "user_id": 308301894626050049,
@@ -403,7 +493,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 31,
+      "rank_change": 0
     },
     {
       "user_id": 316947169993293825,
@@ -416,7 +509,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 32,
+      "rank_change": 0
     },
     {
       "user_id": 317591106248245261,
@@ -429,7 +525,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 33,
+      "rank_change": 0
     },
     {
       "user_id": 334929695709724673,
@@ -442,7 +541,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 34,
+      "rank_change": 0
     },
     {
       "user_id": 344569923047129091,
@@ -455,7 +557,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 35,
+      "rank_change": 0
     },
     {
       "user_id": 359137879622156288,
@@ -468,7 +573,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 36,
+      "rank_change": 0
     },
     {
       "user_id": 379249571601317889,
@@ -481,7 +589,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 37,
+      "rank_change": 0
     },
     {
       "user_id": 391732751457320981,
@@ -494,7 +605,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 38,
+      "rank_change": 0
     },
     {
       "user_id": 395552015377235989,
@@ -507,7 +621,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 39,
+      "rank_change": 0
     },
     {
       "user_id": 395690923885068288,
@@ -520,20 +637,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
-    },
-    {
-      "user_id": 399408693302788107,
-      "username": "gino4987",
-      "class": "C",
-      "rating": 1000,
-      "wins": 0,
-      "losses": 0,
-      "games": 0,
-      "win_streak": 0,
-      "loss_streak": 0,
-      "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 40,
+      "rank_change": 0
     },
     {
       "user_id": 402319806402920469,
@@ -546,7 +653,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 41,
+      "rank_change": 1
     },
     {
       "user_id": 407592890756235264,
@@ -559,7 +669,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 42,
+      "rank_change": 1
     },
     {
       "user_id": 408734659032383499,
@@ -572,7 +685,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 43,
+      "rank_change": 1
     },
     {
       "user_id": 412309022218125314,
@@ -585,7 +701,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 44,
+      "rank_change": 1
     },
     {
       "user_id": 427187616195149835,
@@ -598,7 +717,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 45,
+      "rank_change": 1
     },
     {
       "user_id": 428217648522723338,
@@ -611,7 +733,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 46,
+      "rank_change": 1
     },
     {
       "user_id": 432584071307067394,
@@ -624,7 +749,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 47,
+      "rank_change": 1
     },
     {
       "user_id": 440587592115683331,
@@ -637,7 +765,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 48,
+      "rank_change": 1
     },
     {
       "user_id": 453575389307207690,
@@ -650,7 +781,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 49,
+      "rank_change": 1
     },
     {
       "user_id": 457514711848714241,
@@ -663,20 +797,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
-    },
-    {
-      "user_id": 460346056044183572,
-      "username": "zeffy91",
-      "class": "C",
-      "rating": 1000,
-      "wins": 0,
-      "losses": 0,
-      "games": 0,
-      "win_streak": 0,
-      "loss_streak": 0,
-      "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 50,
+      "rank_change": 1
     },
     {
       "user_id": 464896640545980446,
@@ -689,7 +813,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 51,
+      "rank_change": 2
     },
     {
       "user_id": 488856385744928790,
@@ -702,7 +829,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 52,
+      "rank_change": 2
     },
     {
       "user_id": 503483081701851136,
@@ -715,7 +845,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 53,
+      "rank_change": 2
     },
     {
       "user_id": 516045104000270390,
@@ -728,7 +861,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 54,
+      "rank_change": 2
     },
     {
       "user_id": 534060013921108004,
@@ -741,7 +877,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 55,
+      "rank_change": 2
     },
     {
       "user_id": 543061432497995776,
@@ -754,7 +893,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 56,
+      "rank_change": 2
     },
     {
       "user_id": 547730216286421001,
@@ -767,7 +909,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 57,
+      "rank_change": 2
     },
     {
       "user_id": 552256786166579203,
@@ -780,7 +925,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 58,
+      "rank_change": 2
     },
     {
       "user_id": 557375589674123265,
@@ -793,7 +941,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 59,
+      "rank_change": 2
     },
     {
       "user_id": 558121490894028801,
@@ -806,7 +957,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 60,
+      "rank_change": 2
     },
     {
       "user_id": 560222926423457793,
@@ -819,7 +973,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 61,
+      "rank_change": 2
     },
     {
       "user_id": 581317496653742085,
@@ -832,7 +989,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 62,
+      "rank_change": 2
     },
     {
       "user_id": 604973302523625502,
@@ -845,7 +1005,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 63,
+      "rank_change": 2
     },
     {
       "user_id": 621494990383743007,
@@ -858,7 +1021,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 64,
+      "rank_change": 2
     },
     {
       "user_id": 623012864197787650,
@@ -871,7 +1037,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 65,
+      "rank_change": 2
     },
     {
       "user_id": 626843404244090930,
@@ -884,7 +1053,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 66,
+      "rank_change": 2
     },
     {
       "user_id": 636570979677503488,
@@ -897,7 +1069,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 67,
+      "rank_change": 2
     },
     {
       "user_id": 640802095670231051,
@@ -910,7 +1085,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 68,
+      "rank_change": 2
     },
     {
       "user_id": 665293461330853890,
@@ -923,7 +1101,26 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 69,
+      "rank_change": 2
+    },
+    {
+      "user_id": 665955456488964106,
+      "username": "lgndiv",
+      "class": "C",
+      "rating": 1000,
+      "wins": 0,
+      "losses": 0,
+      "games": 0,
+      "win_streak": 0,
+      "loss_streak": 0,
+      "dodges": 0,
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 70,
+      "rank_change": null
     },
     {
       "user_id": 690502976317685781,
@@ -936,7 +1133,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 71,
+      "rank_change": 1
     },
     {
       "user_id": 701959211663491143,
@@ -949,7 +1149,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 72,
+      "rank_change": 1
     },
     {
       "user_id": 706938940992782458,
@@ -962,7 +1165,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 73,
+      "rank_change": 1
     },
     {
       "user_id": 710902430430396487,
@@ -975,7 +1181,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 74,
+      "rank_change": 1
     },
     {
       "user_id": 710967150084489261,
@@ -988,7 +1197,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 75,
+      "rank_change": 1
     },
     {
       "user_id": 711835725104152648,
@@ -1001,7 +1213,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 76,
+      "rank_change": 1
     },
     {
       "user_id": 712090446276460624,
@@ -1014,7 +1229,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 77,
+      "rank_change": 1
     },
     {
       "user_id": 712541242176700416,
@@ -1027,7 +1245,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 78,
+      "rank_change": 1
     },
     {
       "user_id": 712766096838623303,
@@ -1039,8 +1260,11 @@
       "games": 0,
       "win_streak": 0,
       "loss_streak": 0,
-      "dodges": 0,
-      "last_match": null
+      "dodges": 1,
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 79,
+      "rank_change": 1
     },
     {
       "user_id": 718651748142809129,
@@ -1053,7 +1277,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 80,
+      "rank_change": 1
     },
     {
       "user_id": 728820632489427067,
@@ -1066,7 +1293,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 81,
+      "rank_change": 1
     },
     {
       "user_id": 742147855891824790,
@@ -1079,7 +1309,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 82,
+      "rank_change": 1
     },
     {
       "user_id": 759847607367106610,
@@ -1092,7 +1325,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 83,
+      "rank_change": 1
     },
     {
       "user_id": 766807063946068019,
@@ -1105,7 +1341,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 84,
+      "rank_change": 1
     },
     {
       "user_id": 777991264942948353,
@@ -1118,7 +1357,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 85,
+      "rank_change": 1
     },
     {
       "user_id": 783780025194512384,
@@ -1131,7 +1373,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 86,
+      "rank_change": 1
     },
     {
       "user_id": 794854019750297611,
@@ -1144,7 +1389,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 87,
+      "rank_change": 1
     },
     {
       "user_id": 800252445866328095,
@@ -1157,7 +1405,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 88,
+      "rank_change": 1
     },
     {
       "user_id": 803769068200394793,
@@ -1170,7 +1421,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 89,
+      "rank_change": 1
     },
     {
       "user_id": 806025931218485319,
@@ -1183,7 +1437,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 90,
+      "rank_change": 1
     },
     {
       "user_id": 811656772280123432,
@@ -1196,7 +1453,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 91,
+      "rank_change": 1
     },
     {
       "user_id": 813242119459962932,
@@ -1209,7 +1469,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 92,
+      "rank_change": 1
     },
     {
       "user_id": 819353945578405929,
@@ -1222,7 +1485,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 93,
+      "rank_change": 1
     },
     {
       "user_id": 821811794195644466,
@@ -1235,7 +1501,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 94,
+      "rank_change": 1
     },
     {
       "user_id": 823310666194092083,
@@ -1248,7 +1517,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 95,
+      "rank_change": 1
     },
     {
       "user_id": 825873476870340648,
@@ -1261,7 +1533,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 96,
+      "rank_change": 1
     },
     {
       "user_id": 826759902763941909,
@@ -1274,7 +1549,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 97,
+      "rank_change": 1
     },
     {
       "user_id": 831905577536847932,
@@ -1287,7 +1565,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 98,
+      "rank_change": 1
     },
     {
       "user_id": 840317039569797120,
@@ -1300,7 +1581,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 99,
+      "rank_change": 1
     },
     {
       "user_id": 848622321534763028,
@@ -1313,7 +1597,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 100,
+      "rank_change": 1
     },
     {
       "user_id": 854191237267456000,
@@ -1326,7 +1613,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 101,
+      "rank_change": 1
     },
     {
       "user_id": 858872335205138442,
@@ -1339,20 +1629,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
-    },
-    {
-      "user_id": 866803039715983411,
-      "username": "bhaiz1",
-      "class": "C",
-      "rating": 1000,
-      "wins": 0,
-      "losses": 0,
-      "games": 0,
-      "win_streak": 0,
-      "loss_streak": 0,
-      "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 102,
+      "rank_change": 1
     },
     {
       "user_id": 870999241550598155,
@@ -1365,7 +1645,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 103,
+      "rank_change": 2
     },
     {
       "user_id": 904412143426879509,
@@ -1378,7 +1661,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 104,
+      "rank_change": 2
     },
     {
       "user_id": 936070187139076117,
@@ -1391,7 +1677,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 105,
+      "rank_change": 2
     },
     {
       "user_id": 966086373910118471,
@@ -1404,7 +1693,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 106,
+      "rank_change": 2
     },
     {
       "user_id": 971059567821746226,
@@ -1417,7 +1709,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 107,
+      "rank_change": 2
     },
     {
       "user_id": 978219787450716160,
@@ -1430,7 +1725,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 108,
+      "rank_change": 2
     },
     {
       "user_id": 978554821101625405,
@@ -1443,7 +1741,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 109,
+      "rank_change": 2
     },
     {
       "user_id": 1005407719995490306,
@@ -1456,7 +1757,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 110,
+      "rank_change": 2
     },
     {
       "user_id": 1013608349700460564,
@@ -1469,7 +1773,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 111,
+      "rank_change": 2
     },
     {
       "user_id": 1016310245057900545,
@@ -1482,7 +1789,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 112,
+      "rank_change": 2
     },
     {
       "user_id": 1033441139908415569,
@@ -1495,7 +1805,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 113,
+      "rank_change": 2
     },
     {
       "user_id": 1044725430185365514,
@@ -1508,7 +1821,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 114,
+      "rank_change": 2
     },
     {
       "user_id": 1052400599074869341,
@@ -1521,7 +1837,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 115,
+      "rank_change": 2
     },
     {
       "user_id": 1060255663588126753,
@@ -1534,7 +1853,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 116,
+      "rank_change": 2
     },
     {
       "user_id": 1066840940100202677,
@@ -1547,7 +1869,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 117,
+      "rank_change": 2
     },
     {
       "user_id": 1070127896250826814,
@@ -1560,7 +1885,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 118,
+      "rank_change": 2
     },
     {
       "user_id": 1082387672401723483,
@@ -1573,7 +1901,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 119,
+      "rank_change": 2
     },
     {
       "user_id": 1124036219936968815,
@@ -1586,20 +1917,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
-    },
-    {
-      "user_id": 1190432563748151400,
-      "username": "undertheglock2",
-      "class": "C",
-      "rating": 1000,
-      "wins": 0,
-      "losses": 0,
-      "games": 0,
-      "win_streak": 0,
-      "loss_streak": 0,
-      "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 120,
+      "rank_change": 2
     },
     {
       "user_id": 1197453657180999784,
@@ -1612,7 +1933,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 121,
+      "rank_change": 3
     },
     {
       "user_id": 1220534677232943255,
@@ -1625,7 +1949,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 122,
+      "rank_change": 3
     },
     {
       "user_id": 1244736923411415080,
@@ -1638,7 +1965,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 123,
+      "rank_change": 3
     },
     {
       "user_id": 1259073080030920738,
@@ -1651,7 +1981,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 124,
+      "rank_change": 3
     },
     {
       "user_id": 1266548226798911560,
@@ -1664,7 +1997,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 125,
+      "rank_change": 3
     },
     {
       "user_id": 1284109217355010061,
@@ -1677,7 +2013,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 126,
+      "rank_change": 3
     },
     {
       "user_id": 1313194388549271679,
@@ -1690,7 +2029,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 127,
+      "rank_change": 3
     },
     {
       "user_id": 1341427887437254686,
@@ -1703,7 +2045,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 128,
+      "rank_change": 3
     },
     {
       "user_id": 1362029661122596957,
@@ -1716,7 +2061,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 129,
+      "rank_change": 3
     },
     {
       "user_id": 1362927022527090818,
@@ -1729,7 +2077,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 130,
+      "rank_change": 3
     },
     {
       "user_id": 1394467704185946342,
@@ -1742,7 +2093,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 131,
+      "rank_change": 3
     },
     {
       "user_id": 1402280697422549084,
@@ -1755,7 +2109,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 132,
+      "rank_change": 3
     },
     {
       "user_id": 1402974291678466099,
@@ -1768,7 +2125,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 133,
+      "rank_change": 3
     },
     {
       "user_id": 1443830778570997760,
@@ -1781,7 +2141,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 134,
+      "rank_change": 3
     },
     {
       "user_id": 1452653021409579020,
@@ -1794,7 +2157,10 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 135,
+      "rank_change": 3
     },
     {
       "user_id": 1464285655050752033,
@@ -1807,46 +2173,90 @@
       "win_streak": 0,
       "loss_streak": 0,
       "dodges": 0,
-      "last_match": null
+      "last_match": null,
+      "streak_icon": "—",
+      "rank": 136,
+      "rank_change": 3
+    },
+    {
+      "user_id": 239037390868447232,
+      "username": "fugelele",
+      "class": "C-",
+      "rating": 998,
+      "wins": 1,
+      "losses": 1,
+      "games": 2,
+      "win_streak": 1,
+      "loss_streak": 0,
+      "dodges": 0,
+      "last_match": "2026-02-15 21:30:52",
+      "streak_icon": "🔥",
+      "rank": 137,
+      "rank_change": 5
+    },
+    {
+      "user_id": 717980333487685667,
+      "username": "doof88",
+      "class": "C+",
+      "rating": 995,
+      "wins": 4,
+      "losses": 4,
+      "games": 8,
+      "win_streak": 0,
+      "loss_streak": 4,
+      "dodges": 0,
+      "last_match": "2026-01-26 18:48:56",
+      "streak_icon": "🥶",
+      "rank": 138,
+      "rank_change": -126
     },
     {
       "user_id": 366504446559256587,
       "username": "qwopxcnm",
       "class": "C",
-      "rating": 996,
-      "wins": 2,
-      "losses": 2,
-      "games": 4,
-      "win_streak": 1,
-      "loss_streak": 0,
-      "dodges": 0,
-      "last_match": "2026-01-26 17:21:32"
-    },
-    {
-      "user_id": 835786495112904735,
-      "username": "codsetr",
-      "class": "C",
-      "rating": 984,
-      "wins": 6,
-      "losses": 8,
-      "games": 14,
+      "rating": 987,
+      "wins": 5,
+      "losses": 5,
+      "games": 10,
       "win_streak": 0,
       "loss_streak": 2,
       "dodges": 0,
-      "last_match": "2026-01-28 22:43:15"
+      "last_match": "2026-02-01 17:23:50",
+      "streak_icon": "🥶",
+      "rank": 139,
+      "rank_change": 1
     },
     {
-      "user_id": 239037390868447232,
-      "username": "fugelele",
+      "user_id": 395528551928954881,
+      "username": "niek8759",
       "class": "C",
-      "rating": 981,
+      "rating": 984,
+      "wins": 4,
+      "losses": 4,
+      "games": 8,
+      "win_streak": 0,
+      "loss_streak": 3,
+      "dodges": 0,
+      "last_match": "2026-01-28 18:41:58",
+      "streak_icon": "🥶",
+      "rank": 140,
+      "rank_change": -129
+    },
+    {
+      "user_id": 399408693302788107,
+      "username": "gino4987",
+      "class": "C",
+      "rating": 984,
       "wins": 0,
       "losses": 1,
       "games": 1,
       "win_streak": 0,
       "loss_streak": 1,
-      "dodges": 0,
-      "last_match": "2026-01-21 19:35:13"
+      "dodges": 1,
+      "last_match": "2026-01-30 13:52:19",
+      "streak_icon": "🥶",
+      "rank": 141,
+      "rank_change": -100
     },
     {
       "user_id": 1287352750836813905,
@@ -1859,111 +2269,170 @@
       "win_streak": 0,
       "loss_streak": 1,
       "dodges": 0,
-      "last_match": "2026-01-28 21:35:14"
-    },
-    {
-      "user_id": 236305617067704321,
-      "username": "ramborambo69",
-      "class": "C",
-      "rating": 980,
-      "wins": 0,
-      "losses": 1,
-      "games": 1,
-      "win_streak": 0,
-      "loss_streak": 1,
-      "dodges": 0,
-      "last_match": "2026-01-22 02:01:05"
-    },
-    {
-      "user_id": 757315409044308028,
-      "username": "realest7176",
-      "class": "C",
-      "rating": 980,
-      "wins": 0,
-      "losses": 2,
-      "games": 2,
-      "win_streak": 0,
-      "loss_streak": 2,
-      "dodges": 0,
-      "last_match": "2026-01-28 22:10:45"
-    },
-    {
-      "user_id": 1120254277324128326,
-      "username": "zarrar7196",
-      "class": "C",
-      "rating": 978,
-      "wins": 0,
-      "losses": 1,
-      "games": 1,
-      "win_streak": 0,
-      "loss_streak": 1,
-      "dodges": 0,
-      "last_match": "2026-01-24 13:48:44"
+      "last_match": "2026-01-28 21:35:14",
+      "streak_icon": "🥶",
+      "rank": 142,
+      "rank_change": 1
     },
     {
       "user_id": 607037315461808139,
       "username": "trailblazer1135",
-      "class": "C",
+      "class": "C-",
       "rating": 975,
       "wins": 0,
       "losses": 1,
       "games": 1,
       "win_streak": 0,
       "loss_streak": 1,
-      "dodges": 0,
-      "last_match": "2026-01-22 01:28:14"
+      "dodges": 1,
+      "last_match": "2026-01-22 01:28:14",
+      "streak_icon": "🥶",
+      "rank": 143,
+      "rank_change": 4
     },
     {
-      "user_id": 260737732957962257,
-      "username": ".shamou",
-      "class": "C-",
-      "rating": 948,
-      "wins": 0,
-      "losses": 3,
-      "games": 3,
+      "user_id": 835786495112904735,
+      "username": "codsetr",
+      "class": "C",
+      "rating": 964,
+      "wins": 10,
+      "losses": 13,
+      "games": 23,
       "win_streak": 0,
-      "loss_streak": 3,
+      "loss_streak": 1,
       "dodges": 0,
-      "last_match": "2026-01-23 13:46:23"
+      "last_match": "2026-02-11 00:31:04",
+      "streak_icon": "🥶",
+      "rank": 144,
+      "rank_change": -3
+    },
+    {
+      "user_id": 238762226297733131,
+      "username": "lazlo7210",
+      "class": "C-",
+      "rating": 964,
+      "wins": 3,
+      "losses": 5,
+      "games": 8,
+      "win_streak": 0,
+      "loss_streak": 5,
+      "dodges": 1,
+      "last_match": "2026-02-10 19:41:10",
+      "streak_icon": "🥶",
+      "rank": 145,
+      "rank_change": -136
+    },
+    {
+      "user_id": 195645517324222464,
+      "username": "sojourner5151",
+      "class": "C",
+      "rating": 963,
+      "wins": 0,
+      "losses": 2,
+      "games": 2,
+      "win_streak": 0,
+      "loss_streak": 2,
+      "dodges": 0,
+      "last_match": "2026-02-10 02:43:50",
+      "streak_icon": "🥶",
+      "rank": 146,
+      "rank_change": -131
+    },
+    {
+      "user_id": 236305617067704321,
+      "username": "ramborambo69",
+      "class": "C",
+      "rating": 961,
+      "wins": 0,
+      "losses": 2,
+      "games": 2,
+      "win_streak": 0,
+      "loss_streak": 2,
+      "dodges": 0,
+      "last_match": "2026-02-02 23:04:38",
+      "streak_icon": "🥶",
+      "rank": 147,
+      "rank_change": -3
     },
     {
       "user_id": 113743997045833732,
       "username": "mister_t_gaming",
       "class": "C-",
-      "rating": 945,
+      "rating": 940,
       "wins": 0,
       "losses": 3,
       "games": 3,
       "win_streak": 0,
       "loss_streak": 3,
+      "dodges": 1,
+      "last_match": "2026-01-24 23:32:49",
+      "streak_icon": "🥶",
+      "rank": 148,
+      "rank_change": 1
+    },
+    {
+      "user_id": 260737732957962257,
+      "username": ".shamou",
+      "class": "C-",
+      "rating": 908,
+      "wins": 0,
+      "losses": 5,
+      "games": 5,
+      "win_streak": 0,
+      "loss_streak": 5,
       "dodges": 0,
-      "last_match": "2026-01-24 23:32:49"
+      "last_match": "2026-02-15 21:30:52",
+      "streak_icon": "🥶",
+      "rank": 149,
+      "rank_change": -1
+    },
+    {
+      "user_id": 1120254277324128326,
+      "username": "zarrar7196",
+      "class": "C-",
+      "rating": 899,
+      "wins": 1,
+      "losses": 6,
+      "games": 7,
+      "win_streak": 0,
+      "loss_streak": 5,
+      "dodges": 0,
+      "last_match": "2026-02-06 14:19:06",
+      "streak_icon": "🥶",
+      "rank": 150,
+      "rank_change": -4
     },
     {
       "user_id": 364468805369462784,
       "username": "z3t45027",
-      "class": "C-",
-      "rating": 943,
-      "wins": 9,
-      "losses": 14,
-      "games": 23,
+      "class": "C",
+      "rating": 897,
+      "wins": 10,
+      "losses": 21,
+      "games": 31,
       "win_streak": 0,
       "loss_streak": 2,
       "dodges": 0,
-      "last_match": "2026-01-28 21:46:02"
+      "last_match": "2026-02-01 11:34:10",
+      "streak_icon": "🥶",
+      "rank": 151,
+      "rank_change": -1
     },
     {
       "user_id": 1213889235720085544,
       "username": "ynwasully",
       "class": "C-",
-      "rating": 866,
+      "rating": 851,
       "wins": 2,
       "losses": 14,
       "games": 16,
       "win_streak": 0,
       "loss_streak": 2,
       "dodges": 0,
-      "last_match": "2026-01-25 21:11:04"
+      "last_match": "2026-01-25 21:11:04",
+      "streak_icon": "🥶",
+      "rank": 152,
+      "rank_change": -1
     }
   ]
 }
