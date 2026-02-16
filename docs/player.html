@@ -1,105 +1,326 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Player Profile</title>
   <style>
-    body { font-family: Arial; max-width: 1000px; margin: 20px auto; }
-    .card { border:1px solid #ddd; border-radius:10px; padding:15px; margin-bottom:15px; }
-    table { width:100%; border-collapse: collapse; }
-    th, td { padding:8px; border-bottom:1px solid #eee; }
+    :root{
+      --bg:#0b0f14; --panel:#121926; --panel2:#0f1623;
+      --text:#e6edf3; --muted:#9aa7b4; --line:#223041;
+      --accent:#ff3b3b; --accent2:#ffb020;
+      --good:#27c174; --bad:#ff4d4d;
+      --shadow: 0 8px 24px rgba(0,0,0,.35);
+      --radius: 16px;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: radial-gradient(1200px 800px at 20% 0%, rgba(255,59,59,.12), transparent 60%),
+                  radial-gradient(900px 700px at 90% 10%, rgba(255,176,32,.10), transparent 55%),
+                  var(--bg);
+      color:var(--text);
+    }
+    .wrap{max-width:1100px; margin:24px auto; padding:0 14px;}
+    .topbar{
+      display:flex; gap:12px; align-items:center; justify-content:space-between;
+      margin-bottom:16px;
+    }
+    a{color:var(--accent2); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .btn{
+      display:inline-flex; align-items:center; gap:8px;
+      padding:10px 12px; border:1px solid var(--line);
+      border-radius:12px; background:rgba(255,255,255,.03);
+      box-shadow: var(--shadow);
+    }
+    .grid{
+      display:grid; gap:14px;
+      grid-template-columns: 1.2fr .8fr;
+    }
+    @media (max-width: 900px){ .grid{grid-template-columns:1fr} }
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+      border:1px solid var(--line);
+      border-radius: var(--radius);
+      padding:16px;
+      box-shadow: var(--shadow);
+    }
+    .title{
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      margin:0 0 8px 0;
+    }
+    .name{
+      font-size:22px; font-weight:800; letter-spacing:.2px;
+    }
+    .sub{
+      color:var(--muted); font-size:13px; font-family: var(--mono);
+    }
+    .chips{display:flex; flex-wrap:wrap; gap:8px; margin-top:10px}
+    .chip{
+      padding:6px 10px; border-radius:999px; border:1px solid var(--line);
+      background:rgba(255,255,255,.03); color:var(--text); font-size:13px;
+    }
+    .chip strong{color:#fff}
+    .chip.good{border-color: rgba(39,193,116,.35)}
+    .chip.bad{border-color: rgba(255,77,77,.35)}
+    .chip.accent{border-color: rgba(255,176,32,.35)}
+    .sectionTitle{
+      margin:0 0 10px 0; font-size:16px; font-weight:800; color:#fff;
+      display:flex; align-items:center; gap:10px;
+    }
+    .hr{height:1px; background:var(--line); margin:14px 0;}
+    table{width:100%; border-collapse:collapse; overflow:hidden; border-radius:12px;}
+    thead th{
+      text-align:left; font-size:12px; color:var(--muted); font-weight:700;
+      padding:10px; border-bottom:1px solid var(--line);
+      background: rgba(255,255,255,.03);
+    }
+    tbody td{
+      padding:10px; border-bottom:1px solid rgba(34,48,65,.55);
+      font-size:14px;
+    }
+    tbody tr:hover{background: rgba(255,255,255,.03);}
+    .pill{
+      display:inline-block; padding:4px 8px; border-radius:999px;
+      border:1px solid var(--line); background: rgba(255,255,255,.03);
+      font-size:12px; color:var(--muted);
+    }
+    .win{color:var(--good); font-weight:800}
+    .loss{color:var(--bad); font-weight:800}
+    .muted{color:var(--muted)}
+    .error{border-color: rgba(255,77,77,.35); background: rgba(255,77,77,.06)}
   </style>
 </head>
 <body>
+  <div class="wrap">
+    <div class="topbar">
+      <a class="btn" href="./index.html">← Back to leaderboard</a>
+      <span class="sub" id="buildInfo"></span>
+    </div>
 
-<a href="./index.html">← Back to leaderboard</a>
+    <div class="grid">
+      <div class="card" id="profileCard">
+        <div class="title">
+          <div>
+            <div class="name" id="pName">Loading…</div>
+            <div class="sub" id="pId"></div>
+          </div>
+          <div class="pill" id="pUpdated"></div>
+        </div>
+        <div class="chips" id="pChips"></div>
+      </div>
 
-<div id="profile" class="card">Loading...</div>
-<div id="stats" class="card"></div>
-<div id="history" class="card"></div>
+      <div class="card" id="statsCard" style="display:none;">
+        <div class="sectionTitle">Stats</div>
+        <div class="chips" id="sChips"></div>
+        <div class="hr"></div>
+        <div class="muted" id="rivalLine"></div>
+        <div class="muted" id="nemesisLine" style="margin-top:6px;"></div>
+      </div>
+    </div>
+
+    <div class="card" id="historyCard" style="margin-top:14px; display:none;">
+      <div class="sectionTitle">Match History</div>
+      <div id="historyBody"></div>
+    </div>
+  </div>
 
 <script>
-function qs(name){
-  return new URLSearchParams(window.location.search).get(name);
-}
+  const qs = (k) => new URLSearchParams(location.search).get(k);
 
-async function loadJSON(path){
-  const r = await fetch(path, {cache:"no-store"});
-  return await r.json();
-}
-
-(async () => {
-  const id = qs("id");
-  if(!id){ document.getElementById("profile").innerHTML="Missing ID"; return; }
-
-  const lb = await loadJSON("./leaderboard.json");
-  const matches = await loadJSON("./matches.json");
-
-  const players = lb.players;
-  const me = players.find(p => String(p.user_id) === String(id));
-
-  if(!me){
-    document.getElementById("profile").innerHTML="Player not found.";
-    return;
+  async function loadJSON(path){
+    const r = await fetch(path, { cache: "no-store" });
+    if(!r.ok) throw new Error(`Failed to load ${path} (${r.status})`);
+    return await r.json();
   }
 
-  document.getElementById("profile").innerHTML = `
-    <h2>${me.username}</h2>
-    <p>Class: <b>${me.class}</b></p>
-    <p>Rating: <b>${me.rating}</b></p>
-    <p>Rank: <b>#${me.rank}</b></p>
-  `;
+  function toArr(x){
+    if (Array.isArray(x)) return x;
+    if (x && Array.isArray(x.players)) return x.players;
+    if (x && Array.isArray(x.matches)) return x.matches;
+    return [];
+  }
 
-  // Match history
-  const history = matches
-    .filter(m => String(m.winner_id)===id || String(m.loser_id)===id)
-    .sort((a,b)=> new Date(b.completed_ts)-new Date(a.completed_ts))
-    .slice(0,50);
+  function fmtDate(d){
+    if(!d) return "";
+    // allow "YYYY-MM-DD HH:MM:SS" as well as ISO
+    try{
+      const iso = String(d).includes("T") ? d : String(d).replace(" ", "T") + "Z";
+      return new Date(iso).toLocaleString();
+    }catch{ return String(d); }
+  }
 
-  let wins=0, losses=0;
+  function pick(obj, keys){
+    for (const k of keys){
+      if (obj && obj[k] !== undefined && obj[k] !== null) return obj[k];
+    }
+    return null;
+  }
 
-  history.forEach(m=>{
-    if(String(m.winner_id)===id) wins++;
-    else losses++;
-  });
+  function computeStats(matches, id){
+    const idStr = String(id);
+    let played=0, wins=0, losses=0;
+    const byOpp = new Map(); // oppId -> {games,wins,losses}
 
-  const winrate = history.length ? ((wins/history.length)*100).toFixed(1) : 0;
+    for (const m of matches){
+      const w = String(pick(m, ["winner_id","winnerId","winner"]));
+      const l = String(pick(m, ["loser_id","loserId","loser"]));
+      if (w !== idStr && l !== idStr) continue;
 
-  document.getElementById("stats").innerHTML = `
-    <h3>Stats</h3>
-    <p>Recent Matches: ${history.length}</p>
-    <p>Wins: ${wins}</p>
-    <p>Losses: ${losses}</p>
-    <p>Winrate: ${winrate}%</p>
-  `;
+      played++;
+      const isWin = (w === idStr);
+      if (isWin) wins++; else losses++;
 
-  let table = `
-    <h3>Recent Matches</h3>
-    <table>
-      <tr>
-        <th>Date</th>
-        <th>Winner</th>
-        <th>Loser</th>
-        <th>Score</th>
-      </tr>
-  `;
+      const opp = isWin ? l : w;
+      const cur = byOpp.get(opp) || {games:0,wins:0,losses:0};
+      cur.games++;
+      if (isWin) cur.wins++; else cur.losses++;
+      byOpp.set(opp, cur);
+    }
 
-  history.forEach(m=>{
-    table += `
-      <tr>
-        <td>${m.completed_ts || ""}</td>
-        <td>${m.winner_name || m.winner_id}</td>
-        <td>${m.loser_name || m.loser_id}</td>
-        <td>${m.score_text || ""}</td>
-      </tr>
+    let mainRival = null;
+    let nemesis = null;
+
+    for (const [opp, rec] of byOpp.entries()){
+      if (!mainRival || rec.games > mainRival.rec.games) mainRival = {opp, rec};
+      if (rec.games >= 2){
+        const diff = rec.losses - rec.wins;
+        if (!nemesis || diff > nemesis.diff) nemesis = {opp, rec, diff};
+      }
+    }
+
+    return {played,wins,losses,mainRival,nemesis};
+  }
+
+  (async ()=>{
+    const id = qs("id");
+    if(!id){
+      document.getElementById("profileCard").classList.add("error");
+      document.getElementById("pName").textContent = "Missing player id";
+      document.getElementById("pId").textContent = "Use: player.html?id=123";
+      return;
+    }
+
+    const lb = await loadJSON("./leaderboard.json");
+    const players = toArr(lb);
+    const me = players.find(p => String(p.user_id) === String(id));
+
+    document.getElementById("buildInfo").textContent = lb.generated_at ? `Data: ${lb.generated_at}` : "";
+
+    if(!me){
+      document.getElementById("profileCard").classList.add("error");
+      document.getElementById("pName").textContent = "Player not found";
+      document.getElementById("pId").textContent = `ID: ${id}`;
+      return;
+    }
+
+    // name map
+    const nameById = new Map(players.map(p => [String(p.user_id), p.username]));
+
+    // profile
+    document.getElementById("pName").textContent = me.username;
+    document.getElementById("pId").textContent = `ID: ${me.user_id}`;
+    document.getElementById("pUpdated").textContent = me.last_match ? `Last match: ${fmtDate(me.last_match)}` : "No matches yet";
+
+    const chips = document.getElementById("pChips");
+    chips.innerHTML = `
+      <span class="chip accent">Class: <strong>${me.class ?? "?"}</strong></span>
+      <span class="chip">Rating: <strong>${me.rating ?? "?"}</strong></span>
+      <span class="chip">Rank: <strong>#${me.rank ?? "?"}</strong></span>
+      <span class="chip good">Wins: <strong>${me.wins ?? 0}</strong></span>
+      <span class="chip bad">Losses: <strong>${me.losses ?? 0}</strong></span>
+      <span class="chip">Games: <strong>${me.games ?? 0}</strong></span>
+      <span class="chip">Dodges: <strong>${me.dodges ?? 0}</strong></span>
+      <span class="chip">${me.streak_icon ?? "—"} Streak: <strong>${me.win_streak ?? 0}</strong></span>
     `;
+
+    // matches
+    let matches = [];
+    try{
+      const mj = await loadJSON("./matches.json");
+      matches = toArr(mj);
+    }catch(e){
+      // If matches.json isn't present yet, keep page usable.
+      matches = [];
+    }
+
+    const stats = computeStats(matches, id);
+
+    // Stats card (only show if there are any matches)
+    const statsCard = document.getElementById("statsCard");
+    const historyCard = document.getElementById("historyCard");
+
+    if (stats.played > 0){
+      statsCard.style.display = "";
+      const sChips = document.getElementById("sChips");
+      const winrate = ((stats.wins / stats.played) * 100).toFixed(1);
+
+      sChips.innerHTML = `
+        <span class="chip">Matches: <strong>${stats.played}</strong></span>
+        <span class="chip good">W: <strong>${stats.wins}</strong></span>
+        <span class="chip bad">L: <strong>${stats.losses}</strong></span>
+        <span class="chip">Winrate: <strong>${winrate}%</strong></span>
+      `;
+
+      const rivalName = stats.mainRival ? (nameById.get(String(stats.mainRival.opp)) || stats.mainRival.opp) : "—";
+      const rivalRec = stats.mainRival ? `${stats.mainRival.rec.wins}-${stats.mainRival.rec.losses} (${stats.mainRival.rec.games} games)` : "";
+      document.getElementById("rivalLine").innerHTML = `Main Rival: <b>${rivalName}</b> <span class="muted">${rivalRec}</span>`;
+
+      const nemName = stats.nemesis ? (nameById.get(String(stats.nemesis.opp)) || stats.nemesis.opp) : "—";
+      const nemRec = stats.nemesis ? `${stats.nemesis.rec.wins}-${stats.nemesis.rec.losses} (${stats.nemesis.rec.games} games)` : "";
+      document.getElementById("nemesisLine").innerHTML = `Nemesis: <b>${nemName}</b> <span class="muted">${nemRec}</span>`;
+
+      // History table
+      historyCard.style.display = "";
+      const rows = matches
+        .filter(m => String(pick(m, ["winner_id","winnerId","winner"])) === String(id) || String(pick(m, ["loser_id","loserId","loser"])) === String(id))
+        .sort((a,b) => String(pick(b,["completed_ts","completedAt","completed"])) || "").localeCompare(String(pick(a,["completed_ts","completedAt","completed"])) || ""))
+        .slice(0, 50);
+
+      const tbody = rows.map(m => {
+        const wId = String(pick(m, ["winner_id","winnerId","winner"]));
+        const lId = String(pick(m, ["loser_id","loserId","loser"]));
+        const wName = nameById.get(wId) || wId;
+        const lName = nameById.get(lId) || lId;
+
+        const score = pick(m, ["score_text","score","result","scoreText"]) || "";
+        const when = pick(m, ["completed_ts","completedAt","completed","ts"]) || "";
+
+        const isWin = (wId === String(id));
+        return `
+          <tr>
+            <td>${fmtDate(when)}</td>
+            <td class="${isWin ? "win" : ""}">${wName}</td>
+            <td class="${!isWin ? "loss" : ""}">${lName}</td>
+            <td>${score}</td>
+          </tr>
+        `;
+      }).join("");
+
+      document.getElementById("historyBody").innerHTML = `
+        <table>
+          <thead><tr><th>Date</th><th>Winner</th><th>Loser</th><th>Score</th></tr></thead>
+          <tbody>${tbody}</tbody>
+        </table>
+      `;
+
+      if (!rows.length){
+        document.getElementById("historyBody").innerHTML = `<div class="muted">No matches found for this player.</div>`;
+      }
+    } else {
+      // No matches: keep it clean, no empty boxes
+      statsCard.style.display = "none";
+      historyCard.style.display = "none";
+    }
+  })().catch(err => {
+    const card = document.getElementById("profileCard");
+    card.classList.add("error");
+    document.getElementById("pName").textContent = "Error loading profile";
+    document.getElementById("pId").textContent = err.message;
   });
-
-  table += "</table>";
-  document.getElementById("history").innerHTML = table;
-
-})();
 </script>
-
 </body>
 </html>
