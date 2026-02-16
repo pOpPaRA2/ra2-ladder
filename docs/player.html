@@ -1,37 +1,105 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Player • RA2 Ladder</title>
-  <link rel="stylesheet" href="./style.css">
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <meta charset="utf-8">
+  <title>Player Profile</title>
+  <style>
+    body { font-family: Arial; max-width: 1000px; margin: 20px auto; }
+    .card { border:1px solid #ddd; border-radius:10px; padding:15px; margin-bottom:15px; }
+    table { width:100%; border-collapse: collapse; }
+    th, td { padding:8px; border-bottom:1px solid #eee; }
+  </style>
 </head>
 <body>
-  <h1 id="pName">Player</h1>
-  <div class="topnav">
-    <a class="btn" href="./index.html">Ladder</a>
-    <a class="btn" href="./hof.html">Hall of Fame</a>
-    <a class="btn" href="./admin.html">Admin</a>
-  </div>
 
-  <div id="errorBox" class="err" style="display:none;"></div>
+<a href="./index.html">← Back to leaderboard</a>
 
-  <div class="section">
-    <div class="muted" id="pMeta">Loading…</div>
-    <canvas id="eloChart" height="240"></canvas>
-  </div>
+<div id="profile" class="card">Loading...</div>
+<div id="stats" class="card"></div>
+<div id="history" class="card"></div>
 
-  <table>
-    <thead>
-      <tr><th>Date</th><th>Opponent</th><th>Result</th><th>ΔELO</th></tr>
-    </thead>
-    <tbody id="mRows"></tbody>
-  </table>
+<script>
+function qs(name){
+  return new URLSearchParams(window.location.search).get(name);
+}
 
-  <script type="module">
-    import { renderPlayerPage } from "./js/core.js";
-    renderPlayerPage();
-  </script>
+async function loadJSON(path){
+  const r = await fetch(path, {cache:"no-store"});
+  return await r.json();
+}
+
+(async () => {
+  const id = qs("id");
+  if(!id){ document.getElementById("profile").innerHTML="Missing ID"; return; }
+
+  const lb = await loadJSON("./leaderboard.json");
+  const matches = await loadJSON("./matches.json");
+
+  const players = lb.players;
+  const me = players.find(p => String(p.user_id) === String(id));
+
+  if(!me){
+    document.getElementById("profile").innerHTML="Player not found.";
+    return;
+  }
+
+  document.getElementById("profile").innerHTML = `
+    <h2>${me.username}</h2>
+    <p>Class: <b>${me.class}</b></p>
+    <p>Rating: <b>${me.rating}</b></p>
+    <p>Rank: <b>#${me.rank}</b></p>
+  `;
+
+  // Match history
+  const history = matches
+    .filter(m => String(m.winner_id)===id || String(m.loser_id)===id)
+    .sort((a,b)=> new Date(b.completed_ts)-new Date(a.completed_ts))
+    .slice(0,50);
+
+  let wins=0, losses=0;
+
+  history.forEach(m=>{
+    if(String(m.winner_id)===id) wins++;
+    else losses++;
+  });
+
+  const winrate = history.length ? ((wins/history.length)*100).toFixed(1) : 0;
+
+  document.getElementById("stats").innerHTML = `
+    <h3>Stats</h3>
+    <p>Recent Matches: ${history.length}</p>
+    <p>Wins: ${wins}</p>
+    <p>Losses: ${losses}</p>
+    <p>Winrate: ${winrate}%</p>
+  `;
+
+  let table = `
+    <h3>Recent Matches</h3>
+    <table>
+      <tr>
+        <th>Date</th>
+        <th>Winner</th>
+        <th>Loser</th>
+        <th>Score</th>
+      </tr>
+  `;
+
+  history.forEach(m=>{
+    table += `
+      <tr>
+        <td>${m.completed_ts || ""}</td>
+        <td>${m.winner_name || m.winner_id}</td>
+        <td>${m.loser_name || m.loser_id}</td>
+        <td>${m.score_text || ""}</td>
+      </tr>
+    `;
+  });
+
+  table += "</table>";
+  document.getElementById("history").innerHTML = table;
+
+})();
+</script>
+
 </body>
 </html>
